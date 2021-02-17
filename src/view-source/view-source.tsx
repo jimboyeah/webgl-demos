@@ -10,7 +10,7 @@ const ViewSource = ({ pathname }:{ pathname: string }) => (
   >
     <a
       title="View Source"
-      href={`https://github.com/jimboyeah/webgl-demos.git/tree/master/${pathname}`}
+      href={`https://github.com/jimboyeah/webgl-demos/tree/master/${pathname}`}
     >
       <path d="M0 0l115 115h15l12 27 108 108V0z" fill="#fff" />
       <path
