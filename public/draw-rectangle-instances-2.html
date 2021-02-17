@@ -1,0 +1,149 @@
+<!-- saved from url=(0083)http://www.jiazhengblog.com/webgl-learning/advanced/draw-rectangle-instances-2.html -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Basic Draw Rectangle Instance</title>
+<script id="shader-vs" type="x-shader/x-vertex">
+precision highp float;
+attribute vec3 aPos;
+attribute vec3 aOffset;
+attribute vec3 aColor;
+varying vec3 vColor;
+void main(void){
+    gl_Position = vec4(aPos + aOffset, 1);
+    vColor = aColor;
+}
+</script>
+<script id="shader-fs" type="x-shader/x-fragment">
+precision highp float;
+varying vec3 vColor;
+void main(void) {
+    gl_FragColor = vec4(vColor, 1.0);
+}
+</script>
+</head>
+<body>
+<canvas id="canvas" width="800" height="800" ></canvas>
+<script>
+var gl;
+var canvas = document.getElementById('canvas');
+var glProgram = null;
+
+function getGLContext() {
+    var glContextNames = ['webgl', 'experimental-webgl'];
+    for (var i = 0; i < glContextNames.length; i ++) {
+        try {
+            gl = canvas.getContext(glContextNames[i]);
+        } catch (e) {}
+        if (gl) {
+            gl.clearColor(74 / 255, 115 / 255, 94 / 255, 1.0);
+            gl.clear(gl.COLOR_BUFFER_BIT);
+            gl.viewport(0, 0, canvas.width, canvas.height);
+            break;
+        }
+    }
+}
+
+function initShaders() {
+    //get shader source
+    var vs_source = document.getElementById('shader-vs').innerHTML,
+        fs_source = document.getElementById('shader-fs').innerHTML;
+
+    //compile shaders
+    vertexShader = makeShader(vs_source, gl.VERTEX_SHADER);
+    fragmentShader = makeShader(fs_source, gl.FRAGMENT_SHADER);
+
+    //create program
+    glProgram = gl.createProgram();
+
+    //attach and link shaders to the program
+    gl.attachShader(glProgram, vertexShader);
+    gl.attachShader(glProgram, fragmentShader);
+    gl.linkProgram(glProgram);
+
+    if (!gl.getProgramParameter(glProgram, gl.LINK_STATUS)) {
+        alert("Unable to initialize the shader program.");
+    }
+
+    //use program
+    gl.useProgram(glProgram);
+}
+
+function makeShader(src, type) {
+    //compile the vertex shader
+    var shader = gl.createShader(type);
+    gl.shaderSource(shader, src);
+    gl.compileShader(shader);
+
+    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+        alert("Error compiling shader: " + gl.getShaderInfoLog(shader));
+    }
+    return shader;
+}
+
+function getUniforms() {
+    glProgram.offset = gl.getUniformLocation(glProgram, 'uOffset');
+    glProgram.color = gl.getUniformLocation(glProgram, 'uColor');
+}
+var ext = null;
+function setupBuffer(){
+    // vertex representing the triangle
+    var vertex = [
+        -.1, -.1,  0,
+        .1,  -.1,  0,
+        .1,   .1,  0,
+        -.1, -.1,  0,
+        .1,   .1,  0,
+        -.1,   .1,  0
+    ];
+    var vertexBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertex), gl.STATIC_DRAW);
+
+    var aVertexPosition = gl.getAttribLocation(glProgram, 'aPos');
+    // point the attribute to the currently bound vertex buffer.
+    gl.vertexAttribPointer(aVertexPosition, 3, gl.FLOAT, false, 0, 0);
+    gl.enableVertexAttribArray(aVertexPosition);
+    // 创建颜色和位移的buffer
+    var colorsArray = [];
+    var offsetsArray = [];
+    for (var i = 0; i < 10; i++) {
+        colorsArray.push(Math.random(), Math.random(), Math.random());
+        offsetsArray.push((i - 5) / 5 + 0.1, 0, 0);
+    }
+    ext = gl.getExtension("ANGLE_instanced_arrays");
+    var colors = new Float32Array(colorsArray);
+    var offsets = new Float32Array(offsetsArray);
+    var aOffsetLocation = gl.getAttribLocation(glProgram, 'aOffset');
+    var offsetBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, offsetBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, offsets, gl.STATIC_DRAW);
+    gl.enableVertexAttribArray(aOffsetLocation);
+    gl.vertexAttribPointer(aOffsetLocation, 3, gl.FLOAT, false, 12, 0);
+    ext.vertexAttribDivisorANGLE(aOffsetLocation, 1);
+
+    var colorBuffer = gl.createBuffer();
+    var aColorLocation = gl.getAttribLocation(glProgram, 'aColor');
+    gl.bindBuffer(gl.ARRAY_BUFFER, colorBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, colors, gl.STATIC_DRAW);
+    gl.enableVertexAttribArray(aColorLocation);
+    gl.vertexAttribPointer(aColorLocation, 4, gl.FLOAT, false, 12, 0);
+    ext.vertexAttribDivisorANGLE(aColorLocation, 1);
+}
+
+function draw() {
+    var instanceCount = 10;
+    ext.drawArraysInstancedANGLE(gl.TRIANGLES, 0, 6, instanceCount);
+}
+
+window.onload = function(){
+    getGLContext();
+    initShaders();
+    getUniforms();
+    setupBuffer();
+    draw();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,2054 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"canvas",
+				"canvas.parentNode\t(webgl-utils.js)"
+			],
+			[
+				"WebGLS",
+				"WebGLShader\tvar"
+			],
+			[
+				"fd",
+				"flex-direction\tproperty"
+			],
+			[
+				"hard",
+				"hard-light\t(svg.md)"
+			],
+			[
+				"g",
+				"知识付费时代-gitchat/"
+			],
+			[
+				"dra",
+				"draw/"
+			],
+			[
+				"loca",
+				"location\t(csharp.md)"
+			],
+			[
+				"repos",
+				"repository\t(csharp.md)"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"print",
+				"printer_abort"
+			],
+			[
+				"JSON",
+				"json_encode"
+			],
+			[
+				"FILE",
+				"_FILES"
+			],
+			[
+				"n",
+				"node_modules/"
+			],
+			[
+				"value",
+				"value4\tlet"
+			],
+			[
+				"con",
+				"console\tvar"
+			],
+			[
+				"LogL",
+				"LogLevelStrings\ttype"
+			],
+			[
+				"par",
+				"parseInt\tfunction"
+			],
+			[
+				"resu",
+				"result2\tlet"
+			],
+			[
+				"Par",
+				"Partial\ttype"
+			],
+			[
+				"ReactRou",
+				"ReactRouterDOM"
+			],
+			[
+				"ne",
+				"nextPuzzle"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"word",
+				"wordlist"
+			],
+			[
+				"qml",
+				"main.qml"
+			],
+			[
+				"p",
+				"plugins/"
+			],
+			[
+				"img",
+				"imageMat"
+			],
+			[
+				"lena",
+				"lena_thresh"
+			],
+			[
+				"chapp",
+				"ch_app.erl"
+			],
+			[
+				"wxMen",
+				"wxMenuBar"
+			],
+			[
+				"create",
+				"create_test_menu"
+			],
+			[
+				"ge",
+				"GenerateNames"
+			],
+			[
+				"I",
+				"IsStatic"
+			],
+			[
+				"lo",
+				"localhost.pfx"
+			],
+			[
+				"Hook",
+				"KeyboardHook"
+			],
+			[
+				"Hoo",
+				"HookStop"
+			],
+			[
+				"Ho",
+				"HookStart"
+			],
+			[
+				"int",
+				"Int32"
+			],
+			[
+				"PlaySoun",
+				"PlaySoundFlags"
+			],
+			[
+				"O",
+				"OpenFileDialog"
+			],
+			[
+				"From",
+				"Form1_Load"
+			],
+			[
+				"Form1",
+				"Form1_Load"
+			],
+			[
+				"Do",
+				"DoWorkStatic"
+			],
+			[
+				"S",
+				"Singletons"
+			],
+			[
+				"Test",
+				"TestClass"
+			],
+			[
+				"_",
+				"_count"
+			],
+			[
+				"Con",
+				"Contacts"
+			],
+			[
+				"up",
+				"upperCase"
+			],
+			[
+				"cli",
+				"on_button_clicked"
+			],
+			[
+				"height",
+				"max-height\tproperty"
+			],
+			[
+				"so",
+				"socket.io-client"
+			],
+			[
+				"En",
+				"EncodeToString\tfunc(src []byte) string ·ƒ"
+			],
+			[
+				"st",
+				"StdEncoding\t*base64.Encoding ·ν"
+			],
+			[
+				"Engin",
+				"EngineioMessage\tfunc(text string) ·ƒ"
+			],
+			[
+				"EIO",
+				"EIO_Message\tEngineioPacket ·Ɩ"
+			],
+			[
+				"SIO_Bin",
+				"SIO_Binary_Event\tSocketioPacket ·Ɩ"
+			],
+			[
+				"SIO",
+				"SIO_Event\tSocketioPacket ·Ɩ"
+			],
+			[
+				"U",
+				"Uint16\tfunc(b []byte) uint16 ·ƒ"
+			],
+			[
+				"Error",
+				"ErrorNil\tErrorCode ·Ɩ"
+			],
+			[
+				"Err",
+				"ErrorNil\tErrorCode ·Ɩ"
+			],
+			[
+				"Messa",
+				"MessageType\tbyte ·ʈ"
+			],
+			[
+				"E",
+				"Err\terror ·ν"
+			],
+			[
+				"e",
+				"Err\terror ·ν"
+			],
+			[
+				"b",
+				"brw\t*bufio.ReadWriter ·ν"
+			],
+			[
+				"Mi",
+				"Millisecond\ttime.Duration ·Ɩ"
+			],
+			[
+				"Webs",
+				"github.com/gorilla/websocket\t ·ʂ"
+			],
+			[
+				"Set",
+				"SetReadDeadline\tfunc(t time.Time) error ·ƒ"
+			],
+			[
+				"B",
+				"BrokenMessage\tMessageType ·Ɩ"
+			],
+			[
+				"R",
+				"RemoteAddr\tfunc() net.Addr ·ƒ"
+			],
+			[
+				"P",
+				"parsed\tbool ·ν"
+			],
+			[
+				"utf",
+				"unicode/utf8\t ·ʂ"
+			],
+			[
+				"Mask",
+				"Masking\tbool ·ν"
+			],
+			[
+				"Mess",
+				"MessageType\tbyte ·ʈ"
+			],
+			[
+				"Ma",
+				"Maskingkey\t[4]byte ·ν"
+			],
+			[
+				"Masking",
+				"Masking\tbool ·ν"
+			],
+			[
+				"M",
+				"Maskingkey\t[4]byte ·ν"
+			],
+			[
+				"CloseMe",
+				"CloseMessageCode\tuint ·ʈ"
+			],
+			[
+				"Ti",
+				"PingTimeout\ttime.Duration ·Ɩ"
+			],
+			[
+				"Ping",
+				"PingTimeout\ttime.Duration ·Ɩ"
+			],
+			[
+				"r",
+				"SetReadDeadline\tfunc(t time.Time) error ·ƒ"
+			],
+			[
+				"Read",
+				"ReadWriter\tstruct ·ʈ"
+			],
+			[
+				"StatusIn",
+				"StatusInternalServerError\tuntyped int ·Ɩ"
+			],
+			[
+				"net",
+				"netConn\tnet.Conn ·ν"
+			],
+			[
+				"enc",
+				"encoding/base64\t ·ʂ"
+			],
+			[
+				"Re",
+				"RequestURI\tstring ·ν"
+			],
+			[
+				"Respn",
+				"ResponseWriter\tinterface ·ʈ"
+			],
+			[
+				"Ha",
+				"Handler\tinterface ·ʈ"
+			],
+			[
+				"L",
+				"GetLabel\tfunc() string ·ƒ"
+			],
+			[
+				"test",
+				"test_pb.js"
+			],
+			[
+				"react",
+				"react-quill/"
+			],
+			[
+				"el",
+				"element-ui/"
+			],
+			[
+				"rel",
+				"icedesign-qrcode.rel.js"
+			],
+			[
+				"get",
+				"getCroppedCanvas\twarning"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"hex",
+				"hex2decimal"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"in",
+				"MarshalIndent\tfunc(v interface{}, prefix string, indent string) []byte, error ·ƒ"
+			],
+			[
+				"io",
+				"io/ioutil\t ·ʂ"
+			],
+			[
+				"re",
+				"ReadDir\tfunc(dirname string) []os.FileInfo, error ·ƒ"
+			],
+			[
+				"init",
+				"initQueue"
+			],
+			[
+				"thread",
+				"threadID"
+			],
+			[
+				"exit",
+				"exitFlag"
+			],
+			[
+				"content",
+				"content_length"
+			],
+			[
+				"name",
+				"nameKey"
+			],
+			[
+				"work",
+				"workQueue"
+			],
+			[
+				"en",
+				"enqueue"
+			],
+			[
+				"none",
+				"None"
+			],
+			[
+				"Mo",
+				"ModeExclusive\tos.FileMode ·Ɩ"
+			],
+			[
+				"encod",
+				"encoding/json\t ·ʂ"
+			],
+			[
+				"Cmd",
+				"Command\tfunc(name string, arg ...string) *exec.Cmd ·ƒ"
+			],
+			[
+				"next",
+				"next.min.js"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.html",
+			"settings":
+			{
+				"buffer_size": 539,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "// ColoredPoint.js (c) 2012 matsuda\n// Vertex shader program\nvar VSHADER_SOURCE =\n  'attribute vec4 a_Position;\\n' +\n  'varying vec4 v_FragColor;\\n' +\n  'attribute vec4 a_Color;\\n' +\n  'void main() {\\n' +\n  '  v_FragColor = a_Color;\\n' +\n  '  gl_Position = a_Position;\\n' +\n  '  gl_PointSize = 10.0;\\n' +\n  '}\\n';\n\n// Fragment shader program\nvar FSHADER_SOURCE =\n  'precision mediump float;\\n' +\n  'uniform vec4 u_FragColor;\\n' +\n  'varying vec4 v_FragColor;\\n' +\n  'void main() {\\n' +\n  '  gl_FragColor = u_FragColor;\\n' +\n  '}\\n';\n\nfunction main() {\n  // Retrieve <canvas> element\n  var canvas = document.getElementById('webgl');\n\n  // Get the rendering context for WebGL\n  var gl = getWebGLContext(canvas);\n  if (!gl) {\n    console.log('Failed to get the rendering context for WebGL');\n    return;\n  }\n\n  // Initialize shaders\n  if (!initShaders(gl, VSHADER_SOURCE, FSHADER_SOURCE)) {\n    console.log('Failed to intialize shaders.');\n    return;\n  }\n\n  // // Get the storage location of a_Position\n  var a_Position = gl.getAttribLocation(gl.program, 'a_Position');\n  if (a_Position < 0) {\n    console.log('Failed to get the storage location of a_Position');\n    return;\n  }\n\n  // Get the storage location of u_FragColor\n  var u_FragColor = gl.getUniformLocation(gl.program, 'u_FragColor');\n  if (!u_FragColor) {\n    console.log('Failed to get the storage location of u_FragColor');\n    return;\n  }\n\n  // Register function (event handler) to be called on a mouse press\n  canvas.onmousedown = function(ev){ click(ev, gl, canvas, a_Position, u_FragColor) };\n\n  // Specify the color for clearing <canvas>\n  gl.clearColor(0.0, 0.0, 0.0, 1.0);\n\n  // Clear <canvas>\n  gl.clear(gl.COLOR_BUFFER_BIT);\n\n  console.log(\"MAX_TEXTURE_SIZE\", \"最大纹理尺寸\", gl.getParameter(gl.MAX_TEXTURE_SIZE));\n  console.log(\"MAX_VERTEX_ATTRIBS\", \"可以使用属性数量\", gl.getParameter(gl.MAX_VERTEX_ATTRIBS));\n  console.log(\"MAX_VERTEX_UNIFORM_VECTORS\", \"顶点着色器可以使用 vec4 数量\", gl.getParameter(gl.MAX_VERTEX_UNIFORM_VECTORS));\n  console.log(\"MAX_VARYING_VECTORS\", \"可以使用变量数量\", gl.getParameter(gl.MAX_VARYING_VECTORS));\n  console.log(\"MAX_COMBINED_TEXTURE_IMAGE_UNITS\", \"存在的纹理单元数量\", gl.getParameter(gl.MAX_COMBINED_TEXTURE_IMAGE_UNITS));\n  console.log(\"MAX_VERTEX_TEXTURE_IMAGE_UNITS\", \"顶点着色器可以引用纹理单元数量\", gl.getParameter(gl.MAX_VERTEX_TEXTURE_IMAGE_UNITS));\n  console.log(\"MAX_TEXTURE_IMAGE_UNITS\", \"片段着色器可以引用纹理单元数量\", gl.getParameter(gl.MAX_TEXTURE_IMAGE_UNITS));\n  console.log(\"MAX_FRAGMENT_UNIFORM_VECTORS\", \"片段着色器可以使用 vec4 数量\", gl.getParameter(gl.MAX_FRAGMENT_UNIFORM_VECTORS));\n  console.log(\"MAX_CUBE_MAP_TEXTURE_SIZE\", \"立方体贴图最大尺寸\", gl.getParameter(gl.MAX_CUBE_MAP_TEXTURE_SIZE));\n  console.log(\"MAX_RENDERBUFFER_SIZE\", \"renderbuffer 最大尺寸\", gl.getParameter(gl.MAX_RENDERBUFFER_SIZE));\n  console.log(\"MAX_VIEWPORT_DIMS\", \"viewport 最大尺寸\", gl.getParameter(gl.MAX_VIEWPORT_DIMS));\n  // console.log(\"MAX_3D_TEXTURE_SIZE\", \"3D 纹理最大尺寸\", gl.getParameter(gl.MAX_3D_TEXTURE_SIZE));\n  // console.log(\"MAX_DRAW_BUFFERS\", \"可使用的颜色附件数量\", gl.getParameter(gl.MAX_DRAW_BUFFERS));\n  // console.log(\"MAX_ARRAY_TEXTURE_LAYERS\", \"2D 纹理数组中最大层数\", gl.getParameter(gl.MAX_ARRAY_TEXTURE_LAYERS));\n  // console.log(\"MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS\", \"使用转换反馈时可输出至单独缓存的变量数量\", gl.getParameter(gl.MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS));\n  // console.log(\"MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS\", \"一次性输出至单个缓冲的变量数量\", gl.getParameter(gl.MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS));\n  // console.log(\"MAX_COMBINED_UNIFORM_BLOCKS\", \"全部可使用全局变量块数量\", gl.getParameter(gl.MAX_COMBINED_UNIFORM_BLOCKS));\n  // console.log(\"MAX_VERTEX_UNIFORM_BLOCKS\", \"顶点着色器可使用全局变量块数量\", gl.getParameter(gl.MAX_VERTEX_UNIFORM_BLOCKS));\n  // console.log(\"MAX_FRAGMENT_UNIFORM_BLOCKS\", \"片段着色器可使用全局变量块数量\", gl.getParameter(gl.MAX_FRAGMENT_UNIFORM_BLOCKS));\n}\nvar g_points = [];  // The array for the position of a mouse press\nvar g_colors = [];  // The array to store the color of a point\nvar g_index = [];\nfunction click(ev, gl, canvas, a_Position, u_FragColor) {\n  var x = ev.clientX; // x coordinate of a mouse pointer\n  var y = ev.clientY; // y coordinate of a mouse pointer\n  var rect = ev.target.getBoundingClientRect();\n  resize(canvas);\n  x = ((x - rect.left) - canvas.width/2)/(canvas.width/2);\n  y = (canvas.height/2 - (y - rect.top))/(canvas.height/2);\n  console.log('x,y', x, y, canvas.width, canvas.height, canvas.clientWidth, canvas.clientHeight)\n\n  // Store the coordinates to g_points array\n  g_points.push(x, y, .0);\n  g_index.push(g_index.length);\n  // Store the coordinates to g_points array\n  if (x >= 0.0 && y >= 0.0) {      // First quadrant\n    g_colors.push([1.0, 0.0, 0.0, 1.0]);  // Red\n  } else if (x < 0.0 && y < 0.0) { // Third quadrant\n    g_colors.push([0.0, 1.0, 0.0, 1.0]);  // Green\n  } else {                         // Others\n    g_colors.push([1.0, 1.0, 1.0, 1.0]);  // White\n  }\n\n  // Clear <canvas>\n  gl.clear(gl.COLOR_BUFFER_BIT);\n\n  var len = g_points.length/3;\n  for(var i = 0; i < len; i++) {\n    var x = g_points[i*3];\n    var y = g_points[i*3+1];\n    var z = g_points[i*3+2];\n    var rgba = g_colors[i];\n\n    // Pass the color of a point to u_FragColor variable\n    gl.uniform4f(u_FragColor, rgba[0], rgba[1], rgba[2], rgba[3]);\n    \n    // only for a point\n    // Pass the position of a point to a_Position variable\n    // gl.vertexAttrib3fv(a_Position, new Float32Array(g_points));\n    // gl.vertexAttrib3f(a_Position, x, y, z);\n    // gl.vertexAttrib3fv(a_Position, [x, y, z]);\n    // gl.vertexAttrib1fv(a_Position, [x, y, z]);\n\n    const positionBuffer = gl.createBuffer();\n    gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);\n    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(g_points), gl.STATIC_DRAW);\n\n    gl.enableVertexAttribArray(a_Position);\n    gl.vertexAttribPointer(\n        a_Position,  \n        3,            // 3 values per vertex shader iteration\n        gl.FLOAT,     // data is 32bit floats\n        false,        // don't normalize\n        0,            // stride (0 = auto)\n        0,            // offset into buffer\n    );\n\n    // Indices of the vertices\n    var indices = new Uint8Array(g_index);\n    // Create a buffer object\n    var indexBuffer = gl.createBuffer();\n    if (!indexBuffer) return -1;\n\n    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, indexBuffer);\n    gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, indices, gl.STATIC_DRAW);\n\n    // gl.drawElements(mode, count, type, offset)\n    // gl.drawArrays(mode, first, count)\n\n    // Draw\n    gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_BYTE, 0);\n    gl.drawElements(gl.LINES, indices.length, gl.UNSIGNED_BYTE, 0);\n    // gl.drawArrays(gl.LINES, 0, len);\n    gl.drawArrays(gl.POINTS, 0, len);\n  }\n}\n\nlet resize = (canvas) => {\n  var realToCSSPixels = window.devicePixelRatio;\n  location.hash= [canvas.width, canvas.clientWidth, canvas.height, canvas.clientHeight];\n  \n  var displayWidth  = Math.floor(canvas.clientWidth  * realToCSSPixels);\n  var displayHeight = Math.floor(canvas.clientHeight * realToCSSPixels);\n  // return ;\n  if (canvas.width  !== displayWidth ||\n      canvas.height !== displayHeight) {\n\n    canvas.width  = displayWidth;\n    canvas.height = displayHeight;\n  }\n}",
+			"file": "/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.js",
+			"file_size": 7605,
+			"file_write_time": 132579960333063559,
+			"settings":
+			{
+				"buffer_size": 7127,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/coding/md-code/webgl-fundamentals/webgl/webgl-same-code-canvas-partscreen.html",
+			"settings":
+			{
+				"buffer_size": 1393,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/coding/md-code/webgl-fundamentals/webgl/webgl-2d-image-processing.html",
+			"settings":
+			{
+				"buffer_size": 13431,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/draw-rectangle-instances-2.html",
+			"settings":
+			{
+				"buffer_size": 4582,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/coding/md-code/webgl-fundamentals/webgl/resources/same-code.js",
+			"settings":
+			{
+				"buffer_size": 8545,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dec",
+				"Emmet: Decrement Number by 1"
+			],
+			[
+				"math",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"re",
+				"Rename File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"live",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"emmet",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"ex",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"Package Control: up",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"enablep",
+				"Package Control: Enable Package"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"mat",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"matth",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"inc",
+				"Emmet: Increment Number by 1"
+			],
+			[
+				"ma",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"emmet ",
+				"Emmet: Balance Inward"
+			],
+			[
+				"emmet in",
+				"Emmet: Capture Abbreviation"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"endable ",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				" Math  ",
+				"HTMLPrettify: Set `node` Path"
+			],
+			[
+				"add rep",
+				"Package Control: Add Repository"
+			],
+			[
+				"enable p",
+				"Package Control: Enable Package"
+			],
+			[
+				"emm",
+				"Preferences: Emmet Key Bindings"
+			],
+			[
+				"git:lo",
+				"Git: Log All"
+			],
+			[
+				"edit",
+				"Project: Edit Project"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"co",
+				"Git: Commit"
+			],
+			[
+				"disable\t",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"git",
+				"Git: Add All"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"selection",
+				"Rot13 Selection"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"reane",
+				"Rename File"
+			],
+			[
+				"gitadd",
+				"Git: Add All"
+			],
+			[
+				"emmet:",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"disable ",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable cur",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"pushc",
+				"Git: Push Current Branch"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"table edit",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"table",
+				"Table Editor: Show demo film in new scratch view"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"endable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"la",
+				"LaTeXTools: Clear cache"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"erlang",
+				"Set Syntax: Erlang"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"TypesCript",
+				"TypeScript: Signature Info"
+			],
+			[
+				"markdown",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"debug",
+				"SublimeCodeIntel: Enable Debug Mode"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"new pro",
+				"Project Manager: Add New Project"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 237.0,
+		"history":
+		[
+			"r = os.system(\"cmd /k echo >>c:/coding/md/log.txt\")",
+			"r = os.system(\"cmd /k \\\"echo c:/coding/md/log.txt mkdir c:\\mkdir\\\"\")",
+			"r = os.system(\"cmd /k echo \\\"c:/coding/md/log.txt mkdir c:\\mkdir\\\"\")",
+			"r = os.system(\"cmd /k echo c:/coding/md/log.txt mkdir c:\\mkdir'\")",
+			"r = os.system(\"cmd /k 'echo c:/coding/md/log.txt mkdir c:\\mkdir'\")",
+			"r = os.system(\"cmd -k echo c:/coding/md/log.txt mkdir c:\\mkdir\")",
+			"r = os.system(\"echo c:/coding/md/log.txt mkdir c:\\mkdir\")",
+			"r = os.system(\"echo c:/log.txt mkdir c:\\mkdir\")",
+			"r = os.system(\"echo c:\\\\log.txt mkdir c:\\mkdir\")",
+			"r = os.system(\"mkdir c:\\mkdir\")",
+			"r = os.system(\"cwd .\")",
+			"print(r)",
+			"r = os.system(\"dir .\")",
+			"print(r)",
+			"pring(r)",
+			"r = os.system(\"dir\")",
+			"os.system(\"dir\")",
+			"subprocess.run(\"ls\")",
+			"subprocess.run()",
+			"import subprocess",
+			"subprocess.run()",
+			"import commands",
+			"for i in val.readlines()",
+			"for i in val.readlines(): &  print(i)",
+			"for i in val.readlines()  print(i)",
+			"for i in val.readlines(): print(i)",
+			"for i in val.readlines():",
+			"val = os.popen('ls -al')",
+			"val = os.ppopen('ls -al')",
+			"val = os.Ppopen('ls -al')",
+			"import os",
+			"val = os.Ppopen('ls -al')",
+			"cwd"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/coding/md-code/webgl-demos",
+		"/C/coding/md-code/webgl-demos/public",
+		"/C/coding/md-code/webgl-demos/src",
+		"/C/coding/md-code/WebGL_Guide_Code",
+		"/C/coding/md-code/WebGL_Guide_Code/ch02",
+		"/C/coding/md-code/WebGL_Guide_Code/lib",
+		"/C/coding/md-code/webgl-fundamentals"
+	],
+	"file_history":
+	[
+		"/C/coding/md-code/webgl-demos/build/static/js/3.177c5e33.chunk.js",
+		"/C/coding/md-code/WebGL_Guide_Code/ch02/index.html",
+		"/C/coding/md-code/webgl-demos/node_modules/babylon/README.md",
+		"/C/coding/md-code/webgl-demos/node_modules/babylon/bin/babylon.js",
+		"/C/download/babylon.js",
+		"/C/coding/md-code/webgl-demos/src/lib/webgl-debug.js",
+		"/C/coding/md-code/webgl-demos/lib/cuon-utils.d.ts",
+		"/C/download/programming/cg/glslcookbook-master/ingredients/gl_core_4_3.h",
+		"/C/coding/md-code/webgl-demos/build/index.html",
+		"/C/coding/md-code/webgl-demos/build/static/js/2.384ef1a4.chunk.js",
+		"/C/coding/md-code/webgl-demos/webgl-demos/package.json",
+		"/C/coding/md-code/webgl-demos/babel.config.js",
+		"/C/coding/md-code/webgl-demos/liveserver.js",
+		"/C/coding/md-code/webgl-demos/src/index.ts",
+		"/C/coding/md-code/webgl-demos/package.json",
+		"/C/coding/md-code/webgl-demos/lib/cuon-utils.js",
+		"/C/coding/md-code/webgl-demos/node_modules/typescript/lib/lib.dom.d.ts",
+		"/C/coding/md-code/webgl-demos/public/index.html",
+		"/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.js",
+		"/C/coding/md-code/webgl-demos/types/../lib/cuon-utils.d.ts",
+		"/C/coding/md-code/WebGL_Guide_Code/lib/cuon-matrix.js",
+		"/C/coding/md-code/WebGL_Guide_Code/lib/webgl-utils.js",
+		"/C/coding/md-code/WebGL_Guide_Code/ch07/ColoredCube.js",
+		"/C/coding/md-code/webgl-demos/tsconfig.json",
+		"/C/coding/md-code/WebGL_Guide_Code/lib/cuon-utils.js",
+		"/C/coding/md-code/webgl-demos/jest/index.test.ts",
+		"/C/coding/md-code/webgl-demos/node_modules/.bin/acorn.cmd",
+		"/C/coding/md-code/webgl-demos/build/index.js",
+		"/C/coding/md-code/WebGL_Guide_Code/ch07/HelloCube_singleColor.js",
+		"/C/iceWorks/TS/TicTacToe_TS/webpack.config.js",
+		"/C/coding/md-code/webgl-demos/webpack.config.js",
+		"/C/iceWorks/TS/webpack/package.json",
+		"/C/iceWorks/TS/TicTacToe_TS/package.json",
+		"/C/iceWorks/TypeScript/package.json",
+		"/C/coding/md-code/WebGL_Guide_Code/ch03/HelloTriangle_LINES.js",
+		"/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.html",
+		"/C/coding/md-code/three.js/build/three.module.js",
+		"/C/coding/md-code/three.js/build/three.js",
+		"/C/coding/md-code/WebGL_Guide_Code/lib/webgl-debug.js",
+		"/C/download/programming/cg/glslcookbook-master/Makefile",
+		"/C/download/programming/cg/glslcookbook-master/chapter01/Makefile",
+		"/C/coding/md-code/three.js/test/unit/src/renderers/WebGLRenderer.tests.js",
+		"/C/coding/md-code/WebGL_Guide_Code/ch02/HelloPoint2.js",
+		"/C/coding/md-code/WebGL_Guide_Code/ch10/RotatingTriangle_contextLost.js",
+		"/C/coding/md-code/WebGL_Guide_Code/index.html",
+		"/c/node/node_modules/typescript/lib/lib.dom.d.ts",
+		"/C/coding/md-code/three.js/examples/textures/3d/Readme.txt",
+		"/C/coding/md-code/wxgame-typescript-starter/project.config.json",
+		"/C/coding/宝宝需要/xiubaobao/xiubaobao/project.config.json",
+		"/C/Users/OCEAN/AppData/Local/Temp/Rar$DIa7096.8363/使用说明.txt",
+		"/C/Users/OCEAN/AppData/Local/Temp/Rar$DIa7096.28619/使用说明.txt",
+		"/C/Users/OCEAN/AppData/Local/Temp/Rar$DIa7096.3730/使用说明.txt",
+		"/C/coding/md/OpenToonz/Blender.md",
+		"/C/coding/md/forex.md",
+		"/C/coding/md/Elixir.md",
+		"/C/coding/md/csharp.md",
+		"/C/coding/md/Xamarin.md",
+		"/C/coding/md/diagram.md",
+		"/C/coding/md/OpenGL/OpenCV.md",
+		"/C/coding/md/philosophy.md",
+		"/C/coding/md/ccpp.md",
+		"/C/download/OpenCV/smallpt/Makefile",
+		"/C/download/OpenCV/smallpt/README",
+		"/C/download/OpenCV/smallpt/smallpt.cpp",
+		"/C/coding/md/webpack/electron.md",
+		"/C/coding/md/c-daystep/readme_vue.md",
+		"/C/coding/md/db/mysql.md",
+		"/C/coding/md/webpack/node.md",
+		"/C/coding/md/OpenGL/LinearAlgebra.md",
+		"/C/pictures/draw/多边形 1.svg",
+		"/C/pictures/draw/组 12.svg",
+		"/C/pictures/draw/apple.svg",
+		"/C/pictures/draw/多边形 2.svg",
+		"/C/pictures/draw/矩形 3.svg",
+		"/C/pictures/draw/路径 3.svg",
+		"/C/pictures/draw/联合 1.svg",
+		"/C/pictures/draw/排除 6.svg",
+		"/C/pictures/draw/矩形 4.svg",
+		"/C/download/batik-1.14/samples/mathMetal.svg",
+		"/C/coding/md/readme_sublime.md",
+		"/C/coding/md/etest.html",
+		"/C/coding/md/writing/unicode/coding.html",
+		"/C/coding/Yeen/raw/index.html",
+		"/C/coding/minis/vu/README.md",
+		"/C/coding/minis/readme.rst",
+		"/C/coding/md/webpack/readme_es6.md",
+		"/C/coding/md/dart-flutter/dart-flutter.md",
+		"/C/coding/md/readme_android.md",
+		"/C/flutter/examples/README.md",
+		"/C/flutter/examples-new/flutter_gallery.readme",
+		"/C/flutter/examples/flutter_gallery.readme",
+		"/C/Users/OCEAN/AppData/Roaming/Sublime Text 3/Packages/User/Dart 2.2.sublime-build",
+		"/C/flutter/README.md",
+		"/C/coding/md-code/coding/coding.ts",
+		"/C/coding/md-code/coding/deno.js",
+		"/C/coding/md-code/coding/coding.js",
+		"/C/Users/OCEAN/AppData/Roaming/Sublime Text 3/Packages/User/Node.sublime-build",
+		"/C/coding/md-code/coding/jsconfig.json",
+		"/C/coding/md-code/coding/tsconfig.json",
+		"/C/coding/md/readme_python.md",
+		"/C/coding/md/go/golang.md",
+		"/C/coding/md/readme_git.md",
+		"/C/node/newrepo.cmd",
+		"/C/coding/md/openApi/readme_openapi.md",
+		"/C/coding/md/webpack/readme_css.md",
+		"/C/coding/md/writing/articals/Pretty_v1.0/pretty.html",
+		"/C/coding/md-code/graphql.github.io-source/package.json",
+		"/C/coding/md-code/graphql.github.io-source/README.md",
+		"/C/pictures/draw/知识付费时代-gitchat/apple.svg",
+		"/C/coding/md/Readme2012/readme.txt",
+		"/C/coding/md/go/gopl.md",
+		"/C/coding/md/echart/echarts.md",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/chat-writers.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/collection-desc.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/collection-titles.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/series.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/chat-titles.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/chat-subscribers.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/chat-series.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/chat-brief.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/repeater.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/XD Tool Hotkeys.png",
+		"/C/coding/md/readme.md",
+		"/C/coding/md-code/nextjs-blog/graphql-micro.js",
+		"/C/coding/md-code/serverless-service/index.js",
+		"/C/coding/md/lisp.md",
+		"/C/coding/md-code/coding/coding.lisp",
+		"/C/coding/md-code/coding/coding.mjs.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 451.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Position",
+			"drawElementsInstanced"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6007,
+								6007
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1254.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/coding/md-code/webgl-fundamentals/webgl/webgl-same-code-canvas-partscreen.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1392,
+								1392
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/coding/md-code/webgl-fundamentals/webgl/webgl-2d-image-processing.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11854,
+								11868
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/draw-rectangle-instances-2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4419,
+								4432
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 1131.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/coding/md-code/webgl-fundamentals/webgl/resources/same-code.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3687,
+								3697
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3182.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 153.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "webgl.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"webgl-image-processing",
+				"webgl-fundamentals\\webgl\\webgl-2d-image-processing.html"
+			],
+			[
+				"same-code",
+				"webgl-fundamentals\\webgl\\resources\\same-code.js"
+			],
+			[
+				"linea",
+				"md\\OpenGL\\LinearAlgebra.md"
+			],
+			[
+				"cpp.",
+				"md\\ccpp.md"
+			],
+			[
+				"alg",
+				"md\\OpenGL\\LinearAlgebra.md"
+			],
+			[
+				"blender",
+				"md\\OpenToonz\\Blender.md"
+			],
+			[
+				"sublime",
+				"md\\readme_sublime.md"
+			],
+			[
+				"html",
+				"md\\etest.html"
+			],
+			[
+				"coding.html",
+				"md\\writing\\unicode\\coding.html"
+			],
+			[
+				"node.",
+				"md\\webpack\\node.md"
+			],
+			[
+				"vue",
+				"md\\c-daystep\\readme_vue.md"
+			],
+			[
+				"android",
+				"md\\readme_android.md"
+			],
+			[
+				"dart",
+				"md\\dart-flutter\\dart-flutter.md"
+			],
+			[
+				"es6",
+				"md\\webpack\\readme_es6.md"
+			],
+			[
+				"my",
+				"md\\db\\mysql.md"
+			],
+			[
+				"coding.js",
+				"coding\\coding.js"
+			],
+			[
+				"coding.ts",
+				"coding\\coding.ts"
+			],
+			[
+				"ts",
+				"md\\webpack\\readme_ts.md"
+			],
+			[
+				"rea",
+				"md\\readme.md"
+			],
+			[
+				"sub",
+				"md\\readme_sublime.md"
+			],
+			[
+				"css",
+				"md\\webpack\\readme_css.md"
+			],
+			[
+				"react",
+				"md\\webpack\\readme_react.md"
+			],
+			[
+				"git",
+				"md\\readme_git.md"
+			],
+			[
+				"win",
+				"md\\readme_win.md"
+			],
+			[
+				"golang",
+				"md\\go\\golang.md"
+			],
+			[
+				"php",
+				"md\\readme_php.md"
+			],
+			[
+				"curl",
+				"md\\readme_curl.md"
+			],
+			[
+				"api",
+				"md\\minis\\wxappApi3Action.class.php"
+			],
+			[
+				"node",
+				"md\\webpack\\node.md"
+			],
+			[
+				"webpack",
+				"md\\webpack\\readme_webpack.md"
+			],
+			[
+				"sublime.",
+				"md\\readme_sublime.md"
+			],
+			[
+				"cod",
+				"coding\\coding.py"
+			],
+			[
+				"win.",
+				"md\\readme_win.md"
+			],
+			[
+				"webpac",
+				"md\\webpack\\readme_webpack.md"
+			],
+			[
+				"forex.html",
+				"md\\forex.html"
+			],
+			[
+				"webp",
+				"md\\webpack\\readme_webpack.md"
+			],
+			[
+				"codingphp",
+				"coding\\coding.php"
+			],
+			[
+				"test.h",
+				"md\\writing\\random-test\\rand_test.html"
+			],
+			[
+				"go",
+				"md\\go\\golang.md"
+			],
+			[
+				"action.",
+				"md\\minis\\wxappApi3Action.class.php"
+			],
+			[
+				"es",
+				"md\\webpack\\readme_es6.md"
+			],
+			[
+				"index.html",
+				"md\\c-daystep\\index.html"
+			],
+			[
+				"cpp.md",
+				"md\\ccpp.md"
+			],
+			[
+				"stm",
+				"md\\STM\\STM32_Nucleo.md"
+			],
+			[
+				"lua",
+				"coding\\coding.lua"
+			],
+			[
+				"coding.l",
+				"coding\\coding.lisp"
+			],
+			[
+				"coding",
+				"coding\\coding.py"
+			],
+			[
+				"git.",
+				"md\\readme_git.md"
+			],
+			[
+				"spa",
+				"md\\c-daystep\\spa.html"
+			],
+			[
+				"ts.",
+				"md\\webpack\\readme_ts.md"
+			],
+			[
+				".ts",
+				"coding\\coding.ts"
+			],
+			[
+				"readme.",
+				"md\\readme.md"
+			],
+			[
+				"index",
+				"md\\c-daystep\\index.html"
+			],
+			[
+				"java.md",
+				"md\\readme_java.md"
+			],
+			[
+				"bl",
+				"md\\OpenToonz\\Blender.md"
+			],
+			[
+				"mt",
+				"md\\mtd\\mtd.py"
+			],
+			[
+				"ff",
+				"md\\OpenToonz\\ffmpeg.md"
+			],
+			[
+				"re",
+				"md\\readme.md"
+			],
+			[
+				"redis",
+				"md\\db\\redis.md"
+			],
+			[
+				"spring",
+				"md\\SpringBoot.md"
+			],
+			[
+				"opencv",
+				"md\\OpenGL\\OpenCV.md"
+			],
+			[
+				"cv",
+				"md\\cv.md"
+			],
+			[
+				"rsa",
+				"md\\rsa\\readme_rsa.md"
+			],
+			[
+				"accme",
+				"md\\accme.md"
+			],
+			[
+				"linux",
+				"md\\readme_linux.md"
+			],
+			[
+				"read",
+				"md\\readme.md"
+			],
+			[
+				"mysql",
+				"md\\db\\mysql.md"
+			],
+			[
+				"ddos",
+				"md\\DDOS.md"
+			],
+			[
+				"echarts",
+				"md\\echart\\readme_echarts.md"
+			],
+			[
+				"gopl",
+				"md\\go\\readme_gopl.md"
+			],
+			[
+				"liN",
+				"md\\OpenGL\\LinearAlgebra.md"
+			],
+			[
+				"mongo",
+				"md\\db\\readme.MongoDB.md"
+			],
+			[
+				"mfc",
+				"md\\writing\\mfc\\mfc.html"
+			],
+			[
+				"dia",
+				"md\\diagram.md"
+			],
+			[
+				"ffme",
+				"md\\OpenToonz\\ffmpeg.md"
+			],
+			[
+				"readme",
+				"md\\readme.md"
+			],
+			[
+				"csharp",
+				"md\\csharp.md"
+			],
+			[
+				"bootsrap",
+				"md\\readme_bootstrap.md"
+			],
+			[
+				"erlan",
+				"md\\Erlang.md"
+			],
+			[
+				"net.md",
+				"md\\readme_net.md"
+			],
+			[
+				"hugo",
+				"md\\writing\\hugo.md"
+			],
+			[
+				"make",
+				"md\\Makefile.md"
+			],
+			[
+				"ccpp",
+				"md\\ccpp.md"
+			],
+			[
+				"vim",
+				"md\\vim\\readme_vim.md"
+			],
+			[
+				"open",
+				"md\\OpenGL\\OpenGL.md"
+			],
+			[
+				"socket",
+				"md\\socket.io\\go-my-websocket.md"
+			],
+			[
+				"java",
+				"User\\java.sublime-build"
+			],
+			[
+				"",
+				"md\\readme_git.md"
+			],
+			[
+				"m",
+				"md\\writing\\mfc\\mfc.md"
+			],
+			[
+				"rpc",
+				"md\\socket.io\\gRPC_protobuf.md"
+			],
+			[
+				"python",
+				"md\\readme_python.md"
+			],
+			[
+				"linu",
+				"md\\readme_linux.md"
+			],
+			[
+				"proto",
+				"md\\socket.io\\Protocol Buffer.md"
+			],
+			[
+				"go-",
+				"md\\socket.io\\go-my-websocket.md"
+			],
+			[
+				"block",
+				"md\\blockchain.md"
+			],
+			[
+				"Concurrency",
+				"CPP-Concurrency-In-Action-2ed-2019-master\\README.md"
+			],
+			[
+				"c",
+				"md\\csharp.md"
+			],
+			[
+				"gop",
+				"md\\go\\readme_gopl.md"
+			],
+			[
+				"ffm",
+				"md\\OpenToonz\\ffmpeg.md"
+			],
+			[
+				"ffmpg",
+				"md\\OpenToonz\\ffmpeg.md"
+			],
+			[
+				"coding.cpp",
+				"coding\\coding.cpp"
+			],
+			[
+				"css.md",
+				"md\\webpack\\readme_css.md"
+			],
+			[
+				"gol",
+				"md\\go\\readme_golang.md"
+			],
+			[
+				"golan",
+				"md\\go\\readme_golang.md"
+			],
+			[
+				".go",
+				"coding\\main.go"
+			],
+			[
+				"awslib",
+				"sublime_diagram_plugin\\samples\\awslib.wsd"
+			],
+			[
+				"listspr",
+				"sublime_diagram_plugin\\samples\\listsprite.wsd"
+			],
+			[
+				"cv.md",
+				"md\\cv.md"
+			],
+			[
+				"mark",
+				"md\\Markdown Cheatsheet.md"
+			],
+			[
+				"markdown",
+				"md\\readme_markdown.md"
+			],
+			[
+				"ref.wsd",
+				"sublime_diagram_plugin\\samples\\ref.wsd"
+			],
+			[
+				"ming",
+				"User\\C++ MinGW.sublime-build"
+			],
+			[
+				"csbuild",
+				"User\\C#.sublime-build"
+			],
+			[
+				"openl",
+				"md\\OpenGL\\OpenGL.md"
+			],
+			[
+				"subli",
+				"md\\readme_sublime.md"
+			],
+			[
+				"sublim",
+				"md\\readme_sublime.md"
+			],
+			[
+				"writing mfc",
+				"md\\writing\\articals\\howMCF.html"
+			],
+			[
+				"ML.",
+				"md\\ml.md"
+			],
+			[
+				"mfc.",
+				"md\\writing\\mfc\\mfc.md"
+			],
+			[
+				"markdowm",
+				"md\\readme_markdown.md"
+			],
+			[
+				"win.md",
+				"md\\readme_win.md"
+			],
+			[
+				"mardk",
+				"md\\readme_markdown.md"
+			],
+			[
+				"Make",
+				"md\\Makefile.md"
+			],
+			[
+				"cmake",
+				"User\\CMake.sublime-settings"
+			],
+			[
+				"Ming",
+				"User\\C++ MinGW.sublime-build"
+			],
+			[
+				"cbuil",
+				"User\\C#.sublime-build"
+			],
+			[
+				"coding.py",
+				"coding\\coding.py"
+			],
+			[
+				"qguiapplication",
+				"Qt\\5.9\\Src\\qtbase\\src\\gui\\kernel\\qguiapplication_p.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "next",
+		"selected_items":
+		[
+			[
+				"next",
+				"C:\\coding\\md-code\\nextjs-blog\\nextjs.sublime-project"
+			],
+			[
+				"pac",
+				"C:\\coding\\md-code\\pacman\\pacman.sublime-project"
+			],
+			[
+				"boo",
+				"C:\\coding\\md-code\\bootstrap-5.0\\bootstrap.sublime-project"
+			],
+			[
+				"",
+				"C:\\coding\\md-code\\csdemo\\cs.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "VERTEX_SHADER",
+		"selected_items":
+		[
+			[
+				"VERTEX_SHADER",
+				"GL_VERTEX_SHADER"
+			],
+			[
+				"createTrackbar",
+				"createTrackbar"
+			],
+			[
+				"addWeighted",
+				"addWeighted"
+			],
+			[
+				"resize",
+				"resize"
+			],
+			[
+				"ApplicationViewer",
+				"QmlApplicationViewer"
+			],
+			[
+				"cuda_GpuMat",
+				"cuda_GpuMat"
+			],
+			[
+				"Function: element",
+				"Function: element"
+			],
+			[
+				"element",
+				"Function: element"
+			],
+			[
+				"spawn",
+				"Function: spawn"
+			],
+			[
+				"start_timer",
+				"Function: start_timer"
+			],
+			[
+				"ethr_atomic_read",
+				"ethr_atomic_read"
+			],
+			[
+				"erts_atomic64_read_nob",
+				"erts_atomic64_read_nob"
+			],
+			[
+				"now_",
+				"now_0"
+			],
+			[
+				"erl_start",
+				"erl_start"
+			],
+			[
+				"process_main",
+				"process_main"
+			],
+			[
+				"bs_init2",
+				"Function: do_bs_init_2"
+			],
+			[
+				"ErlSub",
+				"ErlSubBin"
+			],
+			[
+				"ProcBin",
+				"ProcBin"
+			],
+			[
+				"SMALL",
+				"small"
+			],
+			[
+				"Process",
+				"Process"
+			],
+			[
+				"TAG_PRIMARY_LIST",
+				"TAG_PRIMARY_LIST"
+			],
+			[
+				"ErlDrvEntry",
+				"ErlDrvEntry"
+			],
+			[
+				"driver_entry",
+				"add_driver_entry"
+			],
+			[
+				"driver_select",
+				"driver_select"
+			],
+			[
+				"ready_output",
+				"ready_output"
+			],
+			[
+				"main",
+				"main"
+			],
+			[
+				"AddSingleTon",
+				"TryAddSingleton"
+			]
+		],
+		"width": 708.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

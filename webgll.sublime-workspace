@@ -1,0 +1,5719 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"canvas",
+				"canvas.parentNode\t(webgl-utils.js)"
+			],
+			[
+				"WebGLS",
+				"WebGLShader\tvar"
+			],
+			[
+				"fd",
+				"flex-direction\tproperty"
+			],
+			[
+				"hard",
+				"hard-light\t(svg.md)"
+			],
+			[
+				"g",
+				"知识付费时代-gitchat/"
+			],
+			[
+				"dra",
+				"draw/"
+			],
+			[
+				"loca",
+				"location\t(csharp.md)"
+			],
+			[
+				"repos",
+				"repository\t(csharp.md)"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"print",
+				"printer_abort"
+			],
+			[
+				"JSON",
+				"json_encode"
+			],
+			[
+				"FILE",
+				"_FILES"
+			],
+			[
+				"n",
+				"node_modules/"
+			],
+			[
+				"value",
+				"value4\tlet"
+			],
+			[
+				"con",
+				"console\tvar"
+			],
+			[
+				"LogL",
+				"LogLevelStrings\ttype"
+			],
+			[
+				"par",
+				"parseInt\tfunction"
+			],
+			[
+				"resu",
+				"result2\tlet"
+			],
+			[
+				"Par",
+				"Partial\ttype"
+			],
+			[
+				"ReactRou",
+				"ReactRouterDOM"
+			],
+			[
+				"ne",
+				"nextPuzzle"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"word",
+				"wordlist"
+			],
+			[
+				"qml",
+				"main.qml"
+			],
+			[
+				"p",
+				"plugins/"
+			],
+			[
+				"img",
+				"imageMat"
+			],
+			[
+				"lena",
+				"lena_thresh"
+			],
+			[
+				"chapp",
+				"ch_app.erl"
+			],
+			[
+				"wxMen",
+				"wxMenuBar"
+			],
+			[
+				"create",
+				"create_test_menu"
+			],
+			[
+				"ge",
+				"GenerateNames"
+			],
+			[
+				"I",
+				"IsStatic"
+			],
+			[
+				"lo",
+				"localhost.pfx"
+			],
+			[
+				"Hook",
+				"KeyboardHook"
+			],
+			[
+				"Hoo",
+				"HookStop"
+			],
+			[
+				"Ho",
+				"HookStart"
+			],
+			[
+				"int",
+				"Int32"
+			],
+			[
+				"PlaySoun",
+				"PlaySoundFlags"
+			],
+			[
+				"O",
+				"OpenFileDialog"
+			],
+			[
+				"From",
+				"Form1_Load"
+			],
+			[
+				"Form1",
+				"Form1_Load"
+			],
+			[
+				"Do",
+				"DoWorkStatic"
+			],
+			[
+				"S",
+				"Singletons"
+			],
+			[
+				"Test",
+				"TestClass"
+			],
+			[
+				"_",
+				"_count"
+			],
+			[
+				"Con",
+				"Contacts"
+			],
+			[
+				"up",
+				"upperCase"
+			],
+			[
+				"cli",
+				"on_button_clicked"
+			],
+			[
+				"height",
+				"max-height\tproperty"
+			],
+			[
+				"so",
+				"socket.io-client"
+			],
+			[
+				"En",
+				"EncodeToString\tfunc(src []byte) string ·ƒ"
+			],
+			[
+				"st",
+				"StdEncoding\t*base64.Encoding ·ν"
+			],
+			[
+				"Engin",
+				"EngineioMessage\tfunc(text string) ·ƒ"
+			],
+			[
+				"EIO",
+				"EIO_Message\tEngineioPacket ·Ɩ"
+			],
+			[
+				"SIO_Bin",
+				"SIO_Binary_Event\tSocketioPacket ·Ɩ"
+			],
+			[
+				"SIO",
+				"SIO_Event\tSocketioPacket ·Ɩ"
+			],
+			[
+				"U",
+				"Uint16\tfunc(b []byte) uint16 ·ƒ"
+			],
+			[
+				"Error",
+				"ErrorNil\tErrorCode ·Ɩ"
+			],
+			[
+				"Err",
+				"ErrorNil\tErrorCode ·Ɩ"
+			],
+			[
+				"Messa",
+				"MessageType\tbyte ·ʈ"
+			],
+			[
+				"E",
+				"Err\terror ·ν"
+			],
+			[
+				"e",
+				"Err\terror ·ν"
+			],
+			[
+				"b",
+				"brw\t*bufio.ReadWriter ·ν"
+			],
+			[
+				"Mi",
+				"Millisecond\ttime.Duration ·Ɩ"
+			],
+			[
+				"Webs",
+				"github.com/gorilla/websocket\t ·ʂ"
+			],
+			[
+				"Set",
+				"SetReadDeadline\tfunc(t time.Time) error ·ƒ"
+			],
+			[
+				"B",
+				"BrokenMessage\tMessageType ·Ɩ"
+			],
+			[
+				"R",
+				"RemoteAddr\tfunc() net.Addr ·ƒ"
+			],
+			[
+				"P",
+				"parsed\tbool ·ν"
+			],
+			[
+				"utf",
+				"unicode/utf8\t ·ʂ"
+			],
+			[
+				"Mask",
+				"Masking\tbool ·ν"
+			],
+			[
+				"Mess",
+				"MessageType\tbyte ·ʈ"
+			],
+			[
+				"Ma",
+				"Maskingkey\t[4]byte ·ν"
+			],
+			[
+				"Masking",
+				"Masking\tbool ·ν"
+			],
+			[
+				"M",
+				"Maskingkey\t[4]byte ·ν"
+			],
+			[
+				"CloseMe",
+				"CloseMessageCode\tuint ·ʈ"
+			],
+			[
+				"Ti",
+				"PingTimeout\ttime.Duration ·Ɩ"
+			],
+			[
+				"Ping",
+				"PingTimeout\ttime.Duration ·Ɩ"
+			],
+			[
+				"r",
+				"SetReadDeadline\tfunc(t time.Time) error ·ƒ"
+			],
+			[
+				"Read",
+				"ReadWriter\tstruct ·ʈ"
+			],
+			[
+				"StatusIn",
+				"StatusInternalServerError\tuntyped int ·Ɩ"
+			],
+			[
+				"net",
+				"netConn\tnet.Conn ·ν"
+			],
+			[
+				"enc",
+				"encoding/base64\t ·ʂ"
+			],
+			[
+				"Re",
+				"RequestURI\tstring ·ν"
+			],
+			[
+				"Respn",
+				"ResponseWriter\tinterface ·ʈ"
+			],
+			[
+				"Ha",
+				"Handler\tinterface ·ʈ"
+			],
+			[
+				"L",
+				"GetLabel\tfunc() string ·ƒ"
+			],
+			[
+				"test",
+				"test_pb.js"
+			],
+			[
+				"react",
+				"react-quill/"
+			],
+			[
+				"el",
+				"element-ui/"
+			],
+			[
+				"rel",
+				"icedesign-qrcode.rel.js"
+			],
+			[
+				"get",
+				"getCroppedCanvas\twarning"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"hex",
+				"hex2decimal"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"in",
+				"MarshalIndent\tfunc(v interface{}, prefix string, indent string) []byte, error ·ƒ"
+			],
+			[
+				"io",
+				"io/ioutil\t ·ʂ"
+			],
+			[
+				"re",
+				"ReadDir\tfunc(dirname string) []os.FileInfo, error ·ƒ"
+			],
+			[
+				"init",
+				"initQueue"
+			],
+			[
+				"thread",
+				"threadID"
+			],
+			[
+				"exit",
+				"exitFlag"
+			],
+			[
+				"content",
+				"content_length"
+			],
+			[
+				"name",
+				"nameKey"
+			],
+			[
+				"work",
+				"workQueue"
+			],
+			[
+				"en",
+				"enqueue"
+			],
+			[
+				"none",
+				"None"
+			],
+			[
+				"Mo",
+				"ModeExclusive\tos.FileMode ·Ɩ"
+			],
+			[
+				"encod",
+				"encoding/json\t ·ʂ"
+			],
+			[
+				"Cmd",
+				"Command\tfunc(name string, arg ...string) *exec.Cmd ·ƒ"
+			],
+			[
+				"next",
+				"next.min.js"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 872,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tsconfig.json",
+			"settings":
+			{
+				"buffer_size": 535,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/index.tsx",
+			"settings":
+			{
+				"buffer_size": 501,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.tsx",
+			"settings":
+			{
+				"buffer_size": 833,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.html",
+			"settings":
+			{
+				"buffer_size": 604,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.js",
+			"settings":
+			{
+				"buffer_size": 6914,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/lib/cuon-utils.js",
+			"settings":
+			{
+				"buffer_size": 3277,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/lib/cuon-utils.d.ts",
+			"settings":
+			{
+				"buffer_size": 1588,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/lib/webgl-utils.js",
+			"settings":
+			{
+				"buffer_size": 7000,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/lib/webgl-debug.js",
+			"settings":
+			{
+				"buffer_size": 19435,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				]
+			],
+			[
+				"Git Demo",
+				"Git help"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/MarkdownPreview/Markdown.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/MarkdownPreview/Markdown.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				]
+			],
+			[
+				"Packages/User/GoLang.sublime-build",
+				"Go run"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					" --> ASCII Art"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					" --> PNG"
+				]
+			],
+			[
+				"Packages/User/PlantUML.sublime-build",
+				" --> ASCII Art"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					"-> Test"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					" --> ASCII Art"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					" --> PNG"
+				]
+			],
+			[
+				"Packages/User/PlantUML.sublime-build",
+				" --> ASCII Art"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					"-> Test"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					"-> Test"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					" --> ASCII Art"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					" --> PNG"
+				]
+			],
+			[
+				"Packages/User/PlantUML.sublime-build",
+				"-> Test"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					"-> Test cmd"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					"-> Test shell_cmd"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					" --> ASCII Art"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					" --> PNG"
+				]
+			],
+			[
+				"Packages/User/PlantUML.sublime-build",
+				" --> PNG"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					"PlantUML --> ASCII Art"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					"PlantUML --> PNG"
+				]
+			],
+			[
+				"Packages/User/PlantUML.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/Flow/Flow.sublime-build",
+					""
+				],
+				[
+					"Packages/PowerShell/Support/Powershell.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/PowerShell/Support/Powershell.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/Flow/Flow.sublime-build",
+					""
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"Node ESM(.mjs)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript Deno"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ts-node"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript Watch"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES3"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES5"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES6"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES6(ECMAScript 2015)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES5(ECMAScript 2009)"
+				]
+			],
+			[
+				"Packages/User/Node.sublime-build",
+				"TypeScript ts-node"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/Flow/Flow.sublime-build",
+					""
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript Deno"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ts-node"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES3"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES5"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES6"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES6(ECMAScript 2015)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES5(ECMAScript 2009)"
+				]
+			],
+			[
+				"Packages/User/Node.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/Flow/Flow.sublime-build",
+					""
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ts-node"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript Deno"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES3"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES5"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES6"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES6(ECMAScript 2015)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES5(ECMAScript 2009)"
+				]
+			],
+			[
+				"Packages/User/Node.sublime-build",
+				"TypeScript Deno"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/Flow/Flow.sublime-build",
+					""
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript[ts-node]"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES3)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES5)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES6)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES6(ECMAScript 2015)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES5(ECMAScript 2009)"
+				],
+				[
+					"Packages/User/ts-node.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Node.sublime-build",
+				"TypeScript[ts-node]"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/Flow/Flow.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"Node ESM(.mjs)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript Deno"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ts-node"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript Watch"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES3"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES5"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES6"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES6(ECMAScript 2015)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES5(ECMAScript 2009)"
+				]
+			],
+			[
+				"Packages/User/Node.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/Flow/Flow.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript Deno"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ts-node"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript Watch"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES3"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES5"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript => ES6"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES6(ECMAScript 2015)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES5(ECMAScript 2009)"
+				]
+			],
+			[
+				"Packages/User/Node.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/Flow/Flow.sublime-build",
+					""
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/php.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/Lua/Lua.sublime-build",
+					""
+				],
+				[
+					"Packages/User/lua.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Lua/Lua.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/MarkdownPreview/Markdown.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/MarkdownPreview/Markdown.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/TypeScript/TypeScript.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript[ts-node]"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES3)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES5)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES6)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES6(ECMAScript 2015)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES5(ECMAScript 2009)"
+				]
+			],
+			[
+				"Packages/User/Node.sublime-build",
+				"TypeScript ES6)"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript[ts-node]"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES3)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES5)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES6)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES6(ECMAScript 2015)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES5(ECMAScript 2009)"
+				],
+				[
+					"Packages/User/ts-node.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/ts-node.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript[ts-node]"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES3)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES5)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES6)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES6(ECMAScript 2015)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES5(ECMAScript 2009)"
+				]
+			],
+			[
+				"Packages/User/Node.sublime-build",
+				"TypeScript ES6)"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					" --> ASCII Art"
+				],
+				[
+					"Packages/User/PlantUML.sublime-build",
+					" --> PNG"
+				]
+			],
+			[
+				"Git Demo",
+				"git show"
+			]
+		],
+		[
+			[
+				[
+					"Git Demo",
+					""
+				],
+				[
+					"Git Demo",
+					"Git help"
+				],
+				[
+					"Git Demo",
+					"Git Origin attach"
+				],
+				[
+					"Git Demo",
+					"Push"
+				],
+				[
+					"Git Demo",
+					"Branch List"
+				],
+				[
+					"Git Demo",
+					"Branch List remote"
+				],
+				[
+					"Git Demo",
+					"Diff --cached"
+				],
+				[
+					"Git Demo",
+					"git show"
+				],
+				[
+					"Packages/User/lisp.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/lisp.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++11)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c++11)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c++11) Release"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c++0x)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c++98)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-ansi)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c11)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c99)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c90)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"控制台中运行"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/C++ MinGW.sublime-build",
+				"(-std=c++11)"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++17)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++14)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++11)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++11) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++11) Release with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++0x) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++98) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-ansi) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c11) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c99) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c90) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"控制台中运行"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++17)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++14)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++11)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++11) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++11) Release with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++0x) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++98) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-ansi) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c11) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c99) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c90) with ENV"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"控制台中运行"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/C++ MinGW.sublime-build",
+				"(-std=c++11) with ENV"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++17)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++14)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"(-std=c++11)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c++11)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c++11) Release"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c++0x)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c++98)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-ansi)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c11)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c99)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"Qt(-std=c90)"
+				],
+				[
+					"Packages/User/C++ MinGW.sublime-build",
+					"控制台中运行"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/C++ MinGW.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++0x)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++11)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++11) Release"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++98)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-ansi)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c11)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c99)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c90)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"控制台中运行"
+				]
+			],
+			[
+				"Packages/User/Qt+MinGW.sublime-build",
+				"编译再运行(-std=c++11)"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++0x)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++112)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++11)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++11) Release"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++98)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-ansi)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c11)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c99)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c90)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"控制台中运行"
+				]
+			],
+			[
+				"Packages/User/Qt+MinGW.sublime-build",
+				"编译再运行(-std=c++112)"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++11)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++11) Release"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c++98)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-ansi)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c11)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c99)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"编译再运行(-std=c90)"
+				],
+				[
+					"Packages/User/Qt+MinGW.sublime-build",
+					"控制台中运行"
+				]
+			],
+			[
+				"Packages/User/Qt+MinGW.sublime-build",
+				"编译再运行(-std=c++11)"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Lua/Lua.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Lua/Lua.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/MarkdownPreview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/MarkdownPreview/Markdown.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Build & Run"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Rust/Cargo.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Sublime-Erlang/Erlang.sublime-build",
+					""
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					""
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Build with dependencies"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Test (common_test)"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Test (eunit)"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Test Current Module (eunit)"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Generate Documentation"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Update Dependencies"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/erlang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/erlang.sublime-build",
+					"Run ..."
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/erlang.sublime-build",
+				"Run ..."
+			]
+		],
+		[
+			[
+				[
+					"Packages/Sublime-Erlang/Erlang.sublime-build",
+					""
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					""
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Build with dependencies"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Test (common_test)"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Test (eunit)"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Test Current Module (eunit)"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Generate Documentation"
+				],
+				[
+					"Packages/Sublime-Erlang/rebar.sublime-build",
+					"Update Dependencies"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/erlang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/erlang.sublime-build",
+					"Run ..."
+				],
+				[
+					"Packages/User/erlang.sublime-build",
+					"Run escript ..."
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/erlang.sublime-build",
+				"Run ..."
+			]
+		],
+		[
+			[
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript[ts-node]"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES3)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES5)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES6)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES6(ECMAScript 2015)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES5(ECMAScript 2009)"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/TypeScript/TypeScript.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/TypeScript/TypeScript.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C#.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Build Exe"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Build DLL"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Run with Test Arguments"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/C#.sublime-build",
+				"Build Exe"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C#.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Build Exe & Run ..."
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Build DLL"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					".Net New"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					".Net Run"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					".Net Run Project"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Run with Test Arguments"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/C#.sublime-build",
+				"Build Exe & Run ..."
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C#.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Build Exe & Run ..."
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Build DLL"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					".Net New"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					".Net Run"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					".Net Watch"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					".Net Run Project"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					".Net Watch Project"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Run with Test Arguments"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/C#.sublime-build",
+				"Build Exe & Run ..."
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C#.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Build Exe & Run ..."
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Build DLL"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					".Net Run"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Run with Test Arguments"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/C#.sublime-build",
+				".Net Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C#.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Build Exe & Run ..."
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Build DLL"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C#.sublime-build",
+					"Run with Test Arguments"
+				],
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/C#.sublime-build",
+				"Build Exe & Run ..."
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript[ts-node]"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES3)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES5)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"TypeScript ES6)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES6(ECMAScript 2015)"
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					"ES5(ECMAScript 2009)"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Node.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/GoLang.sublime-build",
+				"Go run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Dart 2.2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/erlang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/erlang.sublime-build",
+					"Run ..."
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					""
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go build Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release Window GUI App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go Release App"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go install"
+				],
+				[
+					"Packages/User/GoLang.sublime-build",
+					"Go run with Test Arguments"
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/erlang.sublime-build",
+				"Run ..."
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dec",
+				"Emmet: Decrement Number by 1"
+			],
+			[
+				"math",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"re",
+				"Rename File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"live",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"emmet",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"ex",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"Package Control: up",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"enablep",
+				"Package Control: Enable Package"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"mat",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"matth",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"inc",
+				"Emmet: Increment Number by 1"
+			],
+			[
+				"ma",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"emmet ",
+				"Emmet: Balance Inward"
+			],
+			[
+				"emmet in",
+				"Emmet: Capture Abbreviation"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"endable ",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				" Math  ",
+				"HTMLPrettify: Set `node` Path"
+			],
+			[
+				"add rep",
+				"Package Control: Add Repository"
+			],
+			[
+				"enable p",
+				"Package Control: Enable Package"
+			],
+			[
+				"emm",
+				"Preferences: Emmet Key Bindings"
+			],
+			[
+				"git:lo",
+				"Git: Log All"
+			],
+			[
+				"edit",
+				"Project: Edit Project"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"co",
+				"Git: Commit"
+			],
+			[
+				"disable\t",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"git",
+				"Git: Add All"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"selection",
+				"Rot13 Selection"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"reane",
+				"Rename File"
+			],
+			[
+				"gitadd",
+				"Git: Add All"
+			],
+			[
+				"emmet:",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"disable ",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable cur",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"pushc",
+				"Git: Push Current Branch"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"table edit",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"table",
+				"Table Editor: Show demo film in new scratch view"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"endable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"la",
+				"LaTeXTools: Clear cache"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"erlang",
+				"Set Syntax: Erlang"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"TypesCript",
+				"TypeScript: Signature Info"
+			],
+			[
+				"markdown",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"debug",
+				"SublimeCodeIntel: Enable Debug Mode"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"new pro",
+				"Project Manager: Add New Project"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 237.0,
+		"history":
+		[
+			"r = os.system(\"cmd /k echo >>c:/coding/md/log.txt\")",
+			"r = os.system(\"cmd /k \\\"echo c:/coding/md/log.txt mkdir c:\\mkdir\\\"\")",
+			"r = os.system(\"cmd /k echo \\\"c:/coding/md/log.txt mkdir c:\\mkdir\\\"\")",
+			"r = os.system(\"cmd /k echo c:/coding/md/log.txt mkdir c:\\mkdir'\")",
+			"r = os.system(\"cmd /k 'echo c:/coding/md/log.txt mkdir c:\\mkdir'\")",
+			"r = os.system(\"cmd -k echo c:/coding/md/log.txt mkdir c:\\mkdir\")",
+			"r = os.system(\"echo c:/coding/md/log.txt mkdir c:\\mkdir\")",
+			"r = os.system(\"echo c:/log.txt mkdir c:\\mkdir\")",
+			"r = os.system(\"echo c:\\\\log.txt mkdir c:\\mkdir\")",
+			"r = os.system(\"mkdir c:\\mkdir\")",
+			"r = os.system(\"cwd .\")",
+			"print(r)",
+			"r = os.system(\"dir .\")",
+			"print(r)",
+			"pring(r)",
+			"r = os.system(\"dir\")",
+			"os.system(\"dir\")",
+			"subprocess.run(\"ls\")",
+			"subprocess.run()",
+			"import subprocess",
+			"subprocess.run()",
+			"import commands",
+			"for i in val.readlines()",
+			"for i in val.readlines(): &  print(i)",
+			"for i in val.readlines()  print(i)",
+			"for i in val.readlines(): print(i)",
+			"for i in val.readlines():",
+			"val = os.popen('ls -al')",
+			"val = os.ppopen('ls -al')",
+			"val = os.Ppopen('ls -al')",
+			"import os",
+			"val = os.Ppopen('ls -al')",
+			"cwd"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/coding/md-code/WebGL_Guide_Code/ch02/index.html",
+		"/C/coding/md-code/webgl-demos/node_modules/babylon/README.md",
+		"/C/coding/md-code/webgl-demos/node_modules/babylon/bin/babylon.js",
+		"/C/download/babylon.js",
+		"/C/coding/md-code/webgl-demos/src/lib/webgl-debug.js",
+		"/C/coding/md-code/webgl-demos/lib/cuon-utils.d.ts",
+		"/C/download/programming/cg/glslcookbook-master/ingredients/gl_core_4_3.h",
+		"/C/coding/md-code/webgl-demos/build/index.html",
+		"/C/coding/md-code/webgl-demos/build/static/js/2.384ef1a4.chunk.js",
+		"/C/coding/md-code/webgl-demos/webgl-demos/package.json",
+		"/C/coding/md-code/webgl-demos/babel.config.js",
+		"/C/coding/md-code/webgl-demos/liveserver.js",
+		"/C/coding/md-code/webgl-demos/src/index.ts",
+		"/C/coding/md-code/webgl-demos/package.json",
+		"/C/coding/md-code/webgl-demos/lib/cuon-utils.js",
+		"/C/coding/md-code/webgl-demos/node_modules/typescript/lib/lib.dom.d.ts",
+		"/C/coding/md-code/webgl-demos/public/index.html",
+		"/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.js",
+		"/C/coding/md-code/webgl-demos/types/../lib/cuon-utils.d.ts",
+		"/C/coding/md-code/WebGL_Guide_Code/lib/cuon-matrix.js",
+		"/C/coding/md-code/WebGL_Guide_Code/lib/webgl-utils.js",
+		"/C/coding/md-code/WebGL_Guide_Code/ch07/ColoredCube.js",
+		"/C/coding/md-code/webgl-demos/tsconfig.json",
+		"/C/coding/md-code/WebGL_Guide_Code/lib/cuon-utils.js",
+		"/C/coding/md-code/webgl-demos/jest/index.test.ts",
+		"/C/coding/md-code/webgl-demos/node_modules/.bin/acorn.cmd",
+		"/C/coding/md-code/webgl-demos/build/index.js",
+		"/C/coding/md-code/WebGL_Guide_Code/ch07/HelloCube_singleColor.js",
+		"/C/iceWorks/TS/TicTacToe_TS/webpack.config.js",
+		"/C/coding/md-code/webgl-demos/webpack.config.js",
+		"/C/iceWorks/TS/webpack/package.json",
+		"/C/iceWorks/TS/TicTacToe_TS/package.json",
+		"/C/iceWorks/TypeScript/package.json",
+		"/C/coding/md-code/WebGL_Guide_Code/ch03/HelloTriangle_LINES.js",
+		"/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.html",
+		"/C/coding/md-code/three.js/build/three.module.js",
+		"/C/coding/md-code/three.js/build/three.js",
+		"/C/coding/md-code/WebGL_Guide_Code/lib/webgl-debug.js",
+		"/C/download/programming/cg/glslcookbook-master/Makefile",
+		"/C/download/programming/cg/glslcookbook-master/chapter01/Makefile",
+		"/C/coding/md-code/three.js/test/unit/src/renderers/WebGLRenderer.tests.js",
+		"/C/coding/md-code/WebGL_Guide_Code/ch02/HelloPoint2.js",
+		"/C/coding/md-code/WebGL_Guide_Code/ch10/RotatingTriangle_contextLost.js",
+		"/C/coding/md-code/WebGL_Guide_Code/index.html",
+		"/c/node/node_modules/typescript/lib/lib.dom.d.ts",
+		"/C/coding/md-code/three.js/examples/textures/3d/Readme.txt",
+		"/C/coding/md-code/wxgame-typescript-starter/project.config.json",
+		"/C/coding/宝宝需要/xiubaobao/xiubaobao/project.config.json",
+		"/C/Users/OCEAN/AppData/Local/Temp/Rar$DIa7096.8363/使用说明.txt",
+		"/C/Users/OCEAN/AppData/Local/Temp/Rar$DIa7096.28619/使用说明.txt",
+		"/C/Users/OCEAN/AppData/Local/Temp/Rar$DIa7096.3730/使用说明.txt",
+		"/C/coding/md/OpenToonz/Blender.md",
+		"/C/coding/md/forex.md",
+		"/C/coding/md/Elixir.md",
+		"/C/coding/md/csharp.md",
+		"/C/coding/md/Xamarin.md",
+		"/C/coding/md/diagram.md",
+		"/C/coding/md/OpenGL/OpenCV.md",
+		"/C/coding/md/philosophy.md",
+		"/C/coding/md/ccpp.md",
+		"/C/download/OpenCV/smallpt/Makefile",
+		"/C/download/OpenCV/smallpt/README",
+		"/C/download/OpenCV/smallpt/smallpt.cpp",
+		"/C/coding/md/webpack/electron.md",
+		"/C/coding/md/c-daystep/readme_vue.md",
+		"/C/coding/md/db/mysql.md",
+		"/C/coding/md/webpack/node.md",
+		"/C/coding/md/OpenGL/LinearAlgebra.md",
+		"/C/pictures/draw/多边形 1.svg",
+		"/C/pictures/draw/组 12.svg",
+		"/C/pictures/draw/apple.svg",
+		"/C/pictures/draw/多边形 2.svg",
+		"/C/pictures/draw/矩形 3.svg",
+		"/C/pictures/draw/路径 3.svg",
+		"/C/pictures/draw/联合 1.svg",
+		"/C/pictures/draw/排除 6.svg",
+		"/C/pictures/draw/矩形 4.svg",
+		"/C/download/batik-1.14/samples/mathMetal.svg",
+		"/C/coding/md/readme_sublime.md",
+		"/C/coding/md/etest.html",
+		"/C/coding/md/writing/unicode/coding.html",
+		"/C/coding/Yeen/raw/index.html",
+		"/C/coding/minis/vu/README.md",
+		"/C/coding/minis/readme.rst",
+		"/C/coding/md/webpack/readme_es6.md",
+		"/C/coding/md/dart-flutter/dart-flutter.md",
+		"/C/coding/md/readme_android.md",
+		"/C/flutter/examples/README.md",
+		"/C/flutter/examples-new/flutter_gallery.readme",
+		"/C/flutter/examples/flutter_gallery.readme",
+		"/C/Users/OCEAN/AppData/Roaming/Sublime Text 3/Packages/User/Dart 2.2.sublime-build",
+		"/C/flutter/README.md",
+		"/C/coding/md-code/coding/coding.ts",
+		"/C/coding/md-code/coding/deno.js",
+		"/C/coding/md-code/coding/coding.js",
+		"/C/Users/OCEAN/AppData/Roaming/Sublime Text 3/Packages/User/Node.sublime-build",
+		"/C/coding/md-code/coding/jsconfig.json",
+		"/C/coding/md-code/coding/tsconfig.json",
+		"/C/coding/md/readme_python.md",
+		"/C/coding/md/go/golang.md",
+		"/C/coding/md/readme_git.md",
+		"/C/node/newrepo.cmd",
+		"/C/coding/md/openApi/readme_openapi.md",
+		"/C/coding/md/webpack/readme_css.md",
+		"/C/coding/md/writing/articals/Pretty_v1.0/pretty.html",
+		"/C/coding/md-code/graphql.github.io-source/package.json",
+		"/C/coding/md-code/graphql.github.io-source/README.md",
+		"/C/pictures/draw/知识付费时代-gitchat/apple.svg",
+		"/C/coding/md/Readme2012/readme.txt",
+		"/C/coding/md/go/gopl.md",
+		"/C/coding/md/echart/echarts.md",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/chat-writers.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/collection-desc.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/collection-titles.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/series.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/chat-titles.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/chat-subscribers.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/chat-series.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/cheats/chat-brief.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/repeater.txt",
+		"/C/Users/OCEAN/Documents/知识付费时代-gitchat/XD Tool Hotkeys.png",
+		"/C/coding/md/readme.md",
+		"/C/coding/md-code/nextjs-blog/graphql-micro.js",
+		"/C/coding/md-code/serverless-service/index.js",
+		"/C/coding/md/lisp.md",
+		"/C/coding/md-code/coding/coding.lisp",
+		"/C/coding/md-code/coding/coding.mjs.js",
+		"/C/coding/md/webpack/readme_ts.md"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 451.0,
+		"where_history":
+		[
+			"",
+			"C:\\coding\\md-code\\WebGL_Guide_Code",
+			"C:\\coding\\md-code\\three.js",
+			"C:\\coding\\md-code\\WebGL_Guide_Code",
+			"C:\\vcpkg\\installed\\x64-mingw\\include\\",
+			"C:\\vcpkg\\installed\\x64-mingw\\include\\GLFW\\",
+			"C:\\coding\\md-code\\WebGL_Guide_Code"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<!-- ",
+			"'}\\n'",
+			"\\n' +",
+			" == ",
+			"WebctxProgram",
+			"WebctxFramebuffer",
+			"glErrorShdow_",
+			"WebGLUtils",
+			"function ",
+			"gl",
+			" {",
+			"function",
+			"function ",
+			"ABCD",
+			"function",
+			"FRAGMENT_SHADER",
+			"shader",
+			"gl, ",
+			"gl",
+			"{",
+			"function ",
+			"\nfunction ",
+			"./",
+			"drawElements",
+			"finish",
+			"drawElements",
+			"positionLoc",
+			"        ",
+			"       ",
+			"      ",
+			"Int32Array",
+			"setupVertexAttributes",
+			"defaultAttributeValues",
+			"materialDefaultAttributeValues",
+			"vertexAttrib2fv",
+			"vertexAttrib",
+			"GLFW_OPENED",
+			"\\",
+			"drawArrays",
+			"makeDebugContext",
+			"makeDebugContext(",
+			"Init(",
+			"init(",
+			"Init(",
+			"init(",
+			"Init(",
+			"init(",
+			"Init(",
+			"init(",
+			"Init",
+			"init",
+			"glEnums",
+			"glValidEnumContexts",
+			"getParameter(",
+			"vertexAttrib3f",
+			"vertexAttribPointer",
+			"createBuffer",
+			"resetToInitialState",
+			"createBuffer",
+			"gl.drawElements",
+			": number",
+			"drawElements",
+			"requestAnimationFrame",
+			"AnimationFrame",
+			"cancelAnimationFrame",
+			"html\">",
+			"gl.",
+			" | ",
+			"</h3>",
+			"</a>",
+			"href=\"",
+			"2013",
+			"2013-07-01",
+			" 字节",
+			"字节",
+			"<DIR>   ",
+			".html",
+			"的目录",
+			"Matrix4.prototype.",
+			"setGeometry"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								519,
+								519
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tsconfig.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/index.tsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								501,
+								501
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/TypeScript/TypeScriptReact.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/App.tsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/TypeScript/TypeScriptReact.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								381,
+								381
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/coding/md-code/WebGL_Guide_Code/ch02/ColoredPoints.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6757,
+								6757
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1553.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/lib/cuon-utils.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								64
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/lib/cuon-utils.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 56.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/lib/webgl-utils.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5679,
+								5679
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2143.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/lib/webgl-debug.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9174,
+								9174
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3936.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 153.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o://9o":
+	{
+		"height": 109.0
+	},
+	"output.GoSublime-output":
+	{
+		"height": 97.0
+	},
+	"output.GoSublime/HUD":
+	{
+		"height": 0.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 97.0
+	},
+	"output.SFTP":
+	{
+		"height": 103.0
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0
+	},
+	"output.doc":
+	{
+		"height": 103.0
+	},
+	"output.exec":
+	{
+		"height": 255.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 199.0
+	},
+	"output.markdown":
+	{
+		"height": 97.0
+	},
+	"output.sftp":
+	{
+		"height": 127.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 97.0
+	},
+	"pinned_build_system": "",
+	"project": "webgll.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"linea",
+				"md\\OpenGL\\LinearAlgebra.md"
+			],
+			[
+				"cpp.",
+				"md\\ccpp.md"
+			],
+			[
+				"alg",
+				"md\\OpenGL\\LinearAlgebra.md"
+			],
+			[
+				"blender",
+				"md\\OpenToonz\\Blender.md"
+			],
+			[
+				"sublime",
+				"md\\readme_sublime.md"
+			],
+			[
+				"html",
+				"md\\etest.html"
+			],
+			[
+				"coding.html",
+				"md\\writing\\unicode\\coding.html"
+			],
+			[
+				"node.",
+				"md\\webpack\\node.md"
+			],
+			[
+				"vue",
+				"md\\c-daystep\\readme_vue.md"
+			],
+			[
+				"android",
+				"md\\readme_android.md"
+			],
+			[
+				"dart",
+				"md\\dart-flutter\\dart-flutter.md"
+			],
+			[
+				"es6",
+				"md\\webpack\\readme_es6.md"
+			],
+			[
+				"my",
+				"md\\db\\mysql.md"
+			],
+			[
+				"coding.js",
+				"coding\\coding.js"
+			],
+			[
+				"coding.ts",
+				"coding\\coding.ts"
+			],
+			[
+				"ts",
+				"md\\webpack\\readme_ts.md"
+			],
+			[
+				"rea",
+				"md\\readme.md"
+			],
+			[
+				"sub",
+				"md\\readme_sublime.md"
+			],
+			[
+				"css",
+				"md\\webpack\\readme_css.md"
+			],
+			[
+				"react",
+				"md\\webpack\\readme_react.md"
+			],
+			[
+				"git",
+				"md\\readme_git.md"
+			],
+			[
+				"win",
+				"md\\readme_win.md"
+			],
+			[
+				"golang",
+				"md\\go\\golang.md"
+			],
+			[
+				"php",
+				"md\\readme_php.md"
+			],
+			[
+				"curl",
+				"md\\readme_curl.md"
+			],
+			[
+				"api",
+				"md\\minis\\wxappApi3Action.class.php"
+			],
+			[
+				"node",
+				"md\\webpack\\node.md"
+			],
+			[
+				"webpack",
+				"md\\webpack\\readme_webpack.md"
+			],
+			[
+				"sublime.",
+				"md\\readme_sublime.md"
+			],
+			[
+				"cod",
+				"coding\\coding.py"
+			],
+			[
+				"win.",
+				"md\\readme_win.md"
+			],
+			[
+				"webpac",
+				"md\\webpack\\readme_webpack.md"
+			],
+			[
+				"forex.html",
+				"md\\forex.html"
+			],
+			[
+				"webp",
+				"md\\webpack\\readme_webpack.md"
+			],
+			[
+				"codingphp",
+				"coding\\coding.php"
+			],
+			[
+				"test.h",
+				"md\\writing\\random-test\\rand_test.html"
+			],
+			[
+				"go",
+				"md\\go\\golang.md"
+			],
+			[
+				"action.",
+				"md\\minis\\wxappApi3Action.class.php"
+			],
+			[
+				"es",
+				"md\\webpack\\readme_es6.md"
+			],
+			[
+				"index.html",
+				"md\\c-daystep\\index.html"
+			],
+			[
+				"cpp.md",
+				"md\\ccpp.md"
+			],
+			[
+				"stm",
+				"md\\STM\\STM32_Nucleo.md"
+			],
+			[
+				"lua",
+				"coding\\coding.lua"
+			],
+			[
+				"coding.l",
+				"coding\\coding.lisp"
+			],
+			[
+				"coding",
+				"coding\\coding.py"
+			],
+			[
+				"git.",
+				"md\\readme_git.md"
+			],
+			[
+				"spa",
+				"md\\c-daystep\\spa.html"
+			],
+			[
+				"ts.",
+				"md\\webpack\\readme_ts.md"
+			],
+			[
+				".ts",
+				"coding\\coding.ts"
+			],
+			[
+				"readme.",
+				"md\\readme.md"
+			],
+			[
+				"index",
+				"md\\c-daystep\\index.html"
+			],
+			[
+				"java.md",
+				"md\\readme_java.md"
+			],
+			[
+				"bl",
+				"md\\OpenToonz\\Blender.md"
+			],
+			[
+				"mt",
+				"md\\mtd\\mtd.py"
+			],
+			[
+				"ff",
+				"md\\OpenToonz\\ffmpeg.md"
+			],
+			[
+				"re",
+				"md\\readme.md"
+			],
+			[
+				"redis",
+				"md\\db\\redis.md"
+			],
+			[
+				"spring",
+				"md\\SpringBoot.md"
+			],
+			[
+				"opencv",
+				"md\\OpenGL\\OpenCV.md"
+			],
+			[
+				"cv",
+				"md\\cv.md"
+			],
+			[
+				"rsa",
+				"md\\rsa\\readme_rsa.md"
+			],
+			[
+				"accme",
+				"md\\accme.md"
+			],
+			[
+				"linux",
+				"md\\readme_linux.md"
+			],
+			[
+				"read",
+				"md\\readme.md"
+			],
+			[
+				"mysql",
+				"md\\db\\mysql.md"
+			],
+			[
+				"ddos",
+				"md\\DDOS.md"
+			],
+			[
+				"echarts",
+				"md\\echart\\readme_echarts.md"
+			],
+			[
+				"gopl",
+				"md\\go\\readme_gopl.md"
+			],
+			[
+				"liN",
+				"md\\OpenGL\\LinearAlgebra.md"
+			],
+			[
+				"mongo",
+				"md\\db\\readme.MongoDB.md"
+			],
+			[
+				"mfc",
+				"md\\writing\\mfc\\mfc.html"
+			],
+			[
+				"dia",
+				"md\\diagram.md"
+			],
+			[
+				"ffme",
+				"md\\OpenToonz\\ffmpeg.md"
+			],
+			[
+				"readme",
+				"md\\readme.md"
+			],
+			[
+				"csharp",
+				"md\\csharp.md"
+			],
+			[
+				"bootsrap",
+				"md\\readme_bootstrap.md"
+			],
+			[
+				"erlan",
+				"md\\Erlang.md"
+			],
+			[
+				"net.md",
+				"md\\readme_net.md"
+			],
+			[
+				"hugo",
+				"md\\writing\\hugo.md"
+			],
+			[
+				"make",
+				"md\\Makefile.md"
+			],
+			[
+				"ccpp",
+				"md\\ccpp.md"
+			],
+			[
+				"vim",
+				"md\\vim\\readme_vim.md"
+			],
+			[
+				"open",
+				"md\\OpenGL\\OpenGL.md"
+			],
+			[
+				"socket",
+				"md\\socket.io\\go-my-websocket.md"
+			],
+			[
+				"java",
+				"User\\java.sublime-build"
+			],
+			[
+				"",
+				"md\\readme_git.md"
+			],
+			[
+				"m",
+				"md\\writing\\mfc\\mfc.md"
+			],
+			[
+				"rpc",
+				"md\\socket.io\\gRPC_protobuf.md"
+			],
+			[
+				"python",
+				"md\\readme_python.md"
+			],
+			[
+				"linu",
+				"md\\readme_linux.md"
+			],
+			[
+				"proto",
+				"md\\socket.io\\Protocol Buffer.md"
+			],
+			[
+				"go-",
+				"md\\socket.io\\go-my-websocket.md"
+			],
+			[
+				"block",
+				"md\\blockchain.md"
+			],
+			[
+				"Concurrency",
+				"CPP-Concurrency-In-Action-2ed-2019-master\\README.md"
+			],
+			[
+				"c",
+				"md\\csharp.md"
+			],
+			[
+				"gop",
+				"md\\go\\readme_gopl.md"
+			],
+			[
+				"ffm",
+				"md\\OpenToonz\\ffmpeg.md"
+			],
+			[
+				"ffmpg",
+				"md\\OpenToonz\\ffmpeg.md"
+			],
+			[
+				"coding.cpp",
+				"coding\\coding.cpp"
+			],
+			[
+				"css.md",
+				"md\\webpack\\readme_css.md"
+			],
+			[
+				"gol",
+				"md\\go\\readme_golang.md"
+			],
+			[
+				"golan",
+				"md\\go\\readme_golang.md"
+			],
+			[
+				".go",
+				"coding\\main.go"
+			],
+			[
+				"awslib",
+				"sublime_diagram_plugin\\samples\\awslib.wsd"
+			],
+			[
+				"listspr",
+				"sublime_diagram_plugin\\samples\\listsprite.wsd"
+			],
+			[
+				"cv.md",
+				"md\\cv.md"
+			],
+			[
+				"mark",
+				"md\\Markdown Cheatsheet.md"
+			],
+			[
+				"markdown",
+				"md\\readme_markdown.md"
+			],
+			[
+				"ref.wsd",
+				"sublime_diagram_plugin\\samples\\ref.wsd"
+			],
+			[
+				"ming",
+				"User\\C++ MinGW.sublime-build"
+			],
+			[
+				"csbuild",
+				"User\\C#.sublime-build"
+			],
+			[
+				"openl",
+				"md\\OpenGL\\OpenGL.md"
+			],
+			[
+				"subli",
+				"md\\readme_sublime.md"
+			],
+			[
+				"sublim",
+				"md\\readme_sublime.md"
+			],
+			[
+				"writing mfc",
+				"md\\writing\\articals\\howMCF.html"
+			],
+			[
+				"ML.",
+				"md\\ml.md"
+			],
+			[
+				"mfc.",
+				"md\\writing\\mfc\\mfc.md"
+			],
+			[
+				"markdowm",
+				"md\\readme_markdown.md"
+			],
+			[
+				"win.md",
+				"md\\readme_win.md"
+			],
+			[
+				"mardk",
+				"md\\readme_markdown.md"
+			],
+			[
+				"Make",
+				"md\\Makefile.md"
+			],
+			[
+				"cmake",
+				"User\\CMake.sublime-settings"
+			],
+			[
+				"Ming",
+				"User\\C++ MinGW.sublime-build"
+			],
+			[
+				"cbuil",
+				"User\\C#.sublime-build"
+			],
+			[
+				"coding.py",
+				"coding\\coding.py"
+			],
+			[
+				"qguiapplication",
+				"Qt\\5.9\\Src\\qtbase\\src\\gui\\kernel\\qguiapplication_p.h"
+			],
+			[
+				"QGuiApplication",
+				"Qt\\5.9\\Src\\qtbase\\include\\QtGui\\qguiapplication.h"
+			],
+			[
+				"simpleqml",
+				"Qt\\Examples\\Qt-5.9\\activeqt\\simpleqml\\simpleqml.pro"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"C:\\coding\\md-code\\pacman\\pacman.sublime-project"
+			],
+			[
+				"boo",
+				"C:\\coding\\md-code\\bootstrap-5.0\\bootstrap.sublime-project"
+			],
+			[
+				"",
+				"C:\\coding\\md-code\\csdemo\\cs.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "VERTEX_SHADER",
+		"selected_items":
+		[
+			[
+				"VERTEX_SHADER",
+				"GL_VERTEX_SHADER"
+			],
+			[
+				"createTrackbar",
+				"createTrackbar"
+			],
+			[
+				"addWeighted",
+				"addWeighted"
+			],
+			[
+				"resize",
+				"resize"
+			],
+			[
+				"ApplicationViewer",
+				"QmlApplicationViewer"
+			],
+			[
+				"cuda_GpuMat",
+				"cuda_GpuMat"
+			],
+			[
+				"Function: element",
+				"Function: element"
+			],
+			[
+				"element",
+				"Function: element"
+			],
+			[
+				"spawn",
+				"Function: spawn"
+			],
+			[
+				"start_timer",
+				"Function: start_timer"
+			],
+			[
+				"ethr_atomic_read",
+				"ethr_atomic_read"
+			],
+			[
+				"erts_atomic64_read_nob",
+				"erts_atomic64_read_nob"
+			],
+			[
+				"now_",
+				"now_0"
+			],
+			[
+				"erl_start",
+				"erl_start"
+			],
+			[
+				"process_main",
+				"process_main"
+			],
+			[
+				"bs_init2",
+				"Function: do_bs_init_2"
+			],
+			[
+				"ErlSub",
+				"ErlSubBin"
+			],
+			[
+				"ProcBin",
+				"ProcBin"
+			],
+			[
+				"SMALL",
+				"small"
+			],
+			[
+				"Process",
+				"Process"
+			],
+			[
+				"TAG_PRIMARY_LIST",
+				"TAG_PRIMARY_LIST"
+			],
+			[
+				"ErlDrvEntry",
+				"ErlDrvEntry"
+			],
+			[
+				"driver_entry",
+				"add_driver_entry"
+			],
+			[
+				"driver_select",
+				"driver_select"
+			],
+			[
+				"ready_output",
+				"ready_output"
+			],
+			[
+				"main",
+				"main"
+			],
+			[
+				"AddSingleTon",
+				"TryAddSingleton"
+			]
+		],
+		"width": 708.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

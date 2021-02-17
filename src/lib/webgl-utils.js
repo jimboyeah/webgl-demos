@@ -57,7 +57,7 @@
  * visible.
  */
 
-WebGLUtils = function() {
+let WebGLUtils = function() {
 
 /**
  * Creates the HTLM for a failure message
@@ -68,13 +68,13 @@ WebGLUtils = function() {
 var makeFailHTML = function(msg) {
   return '' +
         '<div style="margin: auto; width:500px;z-index:10000;margin-top:20em;text-align:center;">' + msg + '</div>';
-  return '' +
-    '<table style="background-color: #8CE; width: 100%; height: 100%;"><tr>' +
-    '<td align="center">' +
-    '<div style="display: table-cell; vertical-align: middle;">' +
-    '<div style="">' + msg + '</div>' +
-    '</div>' +
-    '</td></tr></table>';
+  // return '' +
+  //   '<table style="background-color: #8CE; width: 100%; height: 100%;"><tr>' +
+  //   '<td align="center">' +
+  //   '<div style="display: table-cell; vertical-align: middle;">' +
+  //   '<div style="">' + msg + '</div>' +
+  //   '</div>' +
+  //   '</td></tr></table>';
 };
 
 /**
@@ -143,7 +143,7 @@ var setupWebGL = function(canvas, opt_attribs, opt_onError) {
  * Creates a webgl context.
  * @param {!Canvas} canvas The canvas tag to get context
  *     from. If one is not passed in one will be created.
- * @return {!WebGLContext} The created context.
+ * @return {!WebGLRenderingContext} The created context.
  */
 var create3DContext = function(canvas, opt_attribs) {
   var names = ["webgl", "experimental-webgl", "webkit-3d", "moz-webgl"];
@@ -195,3 +195,5 @@ if (!window.cancelAnimationFrame) {
                                  window.oCancelAnimationFrame || window.oCancelRequestAnimationFrame ||
                                  window.clearTimeout);
 }
+
+export default WebGLUtils;

@@ -1,4 +1,11 @@
-// cuon-utils.js (c) 2012 kanda and matsuda
+import WebGLUtils from './webgl-utils.js'
+import WebGLDebugUtils from './webgl-debug.js'
+
+/**
+ * cuon-utils.js (c) 2012 kanda and matsuda
+ * Port to TypeScript by Jeango 2021
+ */
+
 /**
  * Create a program object and make current
  * @param gl GL context
@@ -6,7 +13,7 @@
  * @param fshader a fragment shader program (string)
  * @return true, if the program object was created and successfully made current 
  */
-function initShaders(gl, vshader, fshader) {
+export function initShaders(gl: WebGLContext, vshader: string, fshader: string) {
   var program = createProgram(gl, vshader, fshader);
   if (!program) {
     console.log('Failed to create program');
@@ -26,7 +33,7 @@ function initShaders(gl, vshader, fshader) {
  * @param fshader a fragment shader program (string)
  * @return created program object, or null if the creation has failed
  */
-function createProgram(gl, vshader, fshader) {
+export function createProgram(gl: WebGLRenderingContext, vshader: string, fshader: string) {
   // Create shader object
   var vertexShader = loadShader(gl, gl.VERTEX_SHADER, vshader);
   var fragmentShader = loadShader(gl, gl.FRAGMENT_SHADER, fshader);
@@ -63,11 +70,11 @@ function createProgram(gl, vshader, fshader) {
 /**
  * Create a shader object
  * @param gl GL context
- * @param type the type of the shader object to be created
+ * @param type VERTEX_SHADER or FRAGMENT_SHADER, the type of the shader object to be created
  * @param source shader program (string)
  * @return created shader object, or null if the creation has failed.
  */
-function loadShader(gl, type, source) {
+export function loadShader(gl: WebGLRenderingContext, type: GLenum, source: string) {
   // Create shader object
   var shader = gl.createShader(type);
   if (shader == null) {
@@ -97,24 +104,49 @@ function loadShader(gl, type, source) {
  * Initialize and get the rendering for WebGL
  * @param canvas <cavnas> element
  * @param opt_debug flag to initialize the context for debugging
- * @return the rendering context for WebGL
+ * @return [WebGLContext] the rendering context for WebGL
  */
-function getWebGLContext(canvas, opt_debug) {
+export function getWebGLContext(canvas: HTMLCanvasElement, opt_debug: boolean = false): WebGLContext {
   // Get the rendering context for WebGL
-  var gl = WebGLUtils.setupWebGL(canvas);
-  if (!gl) return null;
+  var gl = WebGLUtils.setupWebGL(canvas, {}, {}) as WebGLContext;
+  if (!gl) return gl;
 
   // if opt_debug is explicitly false, create the context for debugging
   if (arguments.length < 2 || opt_debug) {
-    gl = WebGLDebugUtils.makeDebugContext(gl);
+    gl = WebGLDebugUtils.makeDebugContext(gl, null as any) as any;
   }
 
   return gl;
 }
 
-export default {
+export let resize = (gl: WebGLRenderingContext, canvas: HTMLCanvasElement) => {
+  var dpr = /* window.devicePixelRatio || */ 1;
+  // let canvas = gl.canvas;
+  
+  var displayWidth  = Math.floor(canvas.clientWidth  * dpr);
+  var displayHeight = Math.floor(canvas.clientHeight * dpr);
+
+  if (canvas.width  !== displayWidth ||
+      canvas.height !== displayHeight) {
+
+    canvas.width  = displayWidth;
+    canvas.height = displayHeight;
+    // canvas.getContext('2d')?.scale(dpr, dpr)
+  }
+}
+
+export interface WebGLContext extends WebGLRenderingContext {
+  program: WebGLProgram
+}
+
+let ex = {
   initShaders,
   createProgram,
   loadShader,
   getWebGLContext,
+  resize,
 }
+export default  ex;
+/*
+tsc -d --allowJs cuon-utils.js 
+*/
