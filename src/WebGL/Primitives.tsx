@@ -1,6 +1,6 @@
 import React, {MouseEvent, useState} from 'react';
-import {getWebGLContext, initShaders, WebGLContext, resize} from './lib/utils'
-import Github from './view-source/view-source'
+import {getWebGLContext, initShaders, WebGLContext, resize} from '../lib/utils'
+import Github from '../view-source/view-source'
 
 // Vertex shader program
 var VSHADER_SOURCE = `
@@ -220,7 +220,7 @@ function App() {
   })
   return (
     <div className="demo scroll" title={state}>
-    <Github pathname="src/WebGL.tsx" />
+    <Github pathname="src/WebGL/Primitives.tsx" />
     <p className="controls" onClick={ev => setDrawMethod(ev)}>
     <label htmlFor="VAO"><input type="radio" name="g1" id="VAO" title="Vertex Arrary Object"/> VAO </label>
       <label htmlFor="VBO"><input type="radio" name="g1" id="VBO" defaultChecked={true} title="Vertex Buffer object"/> VBO </label>

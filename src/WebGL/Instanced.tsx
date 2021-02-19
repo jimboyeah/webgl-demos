@@ -1,6 +1,6 @@
 import React, {MouseEvent, useState} from 'react';
-import {getWebGLContext, initShaders, WebGLContext, resize} from './lib/utils'
-import Github from './view-source/view-source'
+import {getWebGLContext, initShaders, WebGLContext, resize} from '../lib/utils'
+import Github from '../view-source/view-source'
 
 // Vertex shader program
 var VSHADER_SOURCE = `
@@ -11,7 +11,7 @@ var VSHADER_SOURCE = `
   void main() {
     gl_Position = a_Position + a_Offset;
     gl_PointSize = 10.0;
-    v_FragColor = vec4(a_Color.r / 255.0, a_Color.g / 255.0, a_Color.b / 255.0, a_Color.a / 255.0);
+    v_FragColor = a_Color;
   }`;
 
 // Fragment shader program
@@ -20,7 +20,12 @@ var FSHADER_SOURCE = `
   uniform vec4 u_FragColor;
   varying vec4 v_FragColor;
   void main() {
-    gl_FragColor = length(v_FragColor)>0.0? v_FragColor: u_FragColor;
+    float r = distance(gl_PointCoord, vec2(0.5, 0.5));
+    if(r < 0.3){
+      gl_FragColor = vec4(1.0-gl_FragCoord.x/800.0, 0.0, 0.0, 1.0);
+    }else{
+      gl_FragColor = length(v_FragColor)>0.0? v_FragColor: u_FragColor;
+    }
   }`;
 
 function main(canvas:HTMLCanvasElement) {
@@ -84,7 +89,6 @@ var g_colors: number[] = [
   0.8,0.8,0.8,0.8,
   0.8,0.2,0.2,0.8,
   0.2,0.2,0.8,0.8,
-  1.0,1.0,1.0,1.0,
 ];  // The array to store the color of a point
 var g_index: number[] = [0, 1, 2];
 
@@ -98,11 +102,12 @@ function click(ev: MouseEvent<HTMLCanvasElement>, gl:WebGLContext,
   // Store the coordinates to g_points array
   g_points.push(x, y, .0);
   g_index.push(g_index.length);
-  console.log('x,y', [x, y], 
+  console.log('x,y', [x, y], g_colors
     // [canvas.width, canvas.height], 
     // [canvas.clientWidth, canvas.clientHeight],
     // [gl.canvas.width,gl.canvas.height]
   )
+  resize(gl,canvas)
 
   // Store the coordinates to g_points array
   if (x >= 0.0 && y >= 0.0) {      // First quadrant
@@ -125,52 +130,41 @@ function click(ev: MouseEvent<HTMLCanvasElement>, gl:WebGLContext,
 }
 
 let drawInstanced = () => {
-  resize(gl, gl.canvas as HTMLCanvasElement)
-
-  let count = gridSize;
-  var positions = new Float32Array([
-    -1.0/count, +1.0/count, 0.0,
-    -1.0/count, -1.0/count, 0.0,
-    +1.0/count, +1.0/count, 0.0,
-    +1.0/count, -1.0/count, 0.0,
-  ]);
-
-  let size = positions.length*4+positions.length/3*4;
-  var arrayBuffer = new ArrayBuffer(size);
-  var float32View = new Float32Array(arrayBuffer);
-  var uint8View = new Uint8Array(arrayBuffer);
-  
-  for (var i3 = 0; i3 < positions.length; i3 += 3) {
-      float32View[i3/3*4] = positions[i3];
-      float32View[i3/3*4 + 1] = positions[i3 + 1];
-      float32View[i3/3*4 + 2] = positions[i3 + 2];
-  }
-  for (var i16 = 0; i16 < size; i16 += 16) {
-      uint8View[i16 + 12] = (g_colors[i16/4]*255);
-      uint8View[i16 + 12 + 1] = (g_colors[i16/4 + 1]*255);
-      uint8View[i16 + 12 + 2] = (g_colors[i16/4 + 2]*255);
-      uint8View[i16 + 12 + 3] = (g_colors[i16/4 + 3]*255);
-  }
-
-  var vertexBuffer = gl.createBuffer();
-  gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
-  gl.bufferData(gl.ARRAY_BUFFER, float32View, gl.STATIC_DRAW);
-
+  // var colors = new Float32Array([
+  //   1.0, 0.0, 0.0, .8,
+  //   0.0, 1.0, 0.0, .8,
+  //   0.0, 0.0, 1.0, .8,
+  //   1.0, 1.0, 1.0, .8,
+  // ]);
+  let colors = new Float32Array(g_colors);
+  var colorBuffer = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, colorBuffer);
+  gl.bufferData(gl.ARRAY_BUFFER, colors, gl.STATIC_DRAW);
   gl.vertexAttribPointer( a_Color,  
-    4,             // RGBA, 4 values per vertex shader iteration
-    gl.UNSIGNED_BYTE, // data is 8bit floats
-    false,         // don't normalize
-    16,            // stride (0 = auto)
-    12,            // offset into buffer
+    4,            // RGBA, 4 values per vertex shader iteration
+    gl.FLOAT,     // data is 32bit floats
+    false,        // don't normalize
+    0,            // stride (0 = auto)
+    0,            // offset into buffer
   );
   gl.enableVertexAttribArray(a_Color);
 
+  let count = gridSize;
+  var positions = new Float32Array([
+    -1/count, +1/count, 0.0,
+    -1/count, -1/count, 0.0,
+    +1/count, +1/count, 0.0,
+    +1/count, -1/count, 0.0,
+  ]);
+  var positionBuffer = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+  gl.bufferData(gl.ARRAY_BUFFER, positions, gl.STATIC_DRAW);
   gl.vertexAttribPointer(
     a_Position,  
     3,            // 3 values per vertex shader iteration
     gl.FLOAT,     // data is 32bit floats
     false,        // don't normalize
-    16,           // stride (0 = auto)
+    0,            // stride (0 = auto)
     0,            // offset into buffer
   );
   gl.enableVertexAttribArray(a_Position);
@@ -178,8 +172,8 @@ let drawInstanced = () => {
   var offsetArray = [];
   for(var ir = 0; ir < count; ir++){
     for(var ic = 0; ic < count; ic++){
-      var x = (ir+.5-count/2)/count*3;
-      var y = (ic+.5-count/2)/count*3;
+      var x = (ir+0.5-count/2)/count*4;
+      var y = (ic+0.5-count/2)/count*4;
       var z = 0;
       offsetArray.push(x,y,z);
     }
@@ -210,36 +204,37 @@ let drawInstanced = () => {
   // gl.vertexAttribDivisor(a_Offset, 6);
   var ext = gl.getExtension('ANGLE_instanced_arrays')!;
   ext.vertexAttribDivisorANGLE(a_Offset, 1);
+  // draw elements data from ELEMENT_ARRAY_BUFFER
+  ext.drawElementsInstancedANGLE(gl.TRIANGLES, indices.length, gl.UNSIGNED_BYTE, 0, count**2)
 
   // draw the 1st one as a markup
-  // gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_BYTE, 0);
-  // gl.drawElements(gl.POINTS, indices.length, gl.UNSIGNED_BYTE, 0);
+  gl.drawElements(gl.LINE_STRIP, indices.length, gl.UNSIGNED_BYTE, 0);
+  gl.drawElements(gl.POINTS, indices.length, gl.UNSIGNED_BYTE, 0);
   
-  gl.drawArrays(gl.LINE_STRIP, 0, positions.length/3);
-  gl.drawArrays(gl.POINTS, 0, positions.length/3);
-
-  // draw elements data from ELEMENT_ARRAY_BUFFER
-  ext.drawElementsInstancedANGLE(gl.LINE_STRIP, indices.length, gl.UNSIGNED_BYTE, 0, count**2)
+  // gl.drawArrays(gl.LINE_STRIP, 0, positions.length/3);
+  // gl.drawArrays(gl.POINTS, 0, positions.length/3);
 }
 
 let gridSize = 4;
 function App() {
   let refCanvas = React.useRef<HTMLCanvasElement>(null)
-  const [state, setstate] = useState(gridSize)
-  gridSize = state;
+  const [state, setstate] = useState({size: gridSize})
+  gridSize = state.size;
   React.useEffect(()=>{
     main(refCanvas.current!)
   })
   return (
     <div className="demo scroll">
     <div className="controls">
-    <Github pathname="src/WebGLInterleaved.tsx" />
+    <Github pathname="src/WebGL/Instanced.tsx" />
     set grid size:<br/>
-    <input type="range" max="128" min="1" value={state} title={`grid size ${state}x${state}`} 
-      onChange={ ev => setstate(+ev.target.value)}/><br/>
+    <input type="range" max="128" min="1" value={state.size} title={`grid size ${state.size}x${state.size}`} 
+      onChange={ ev => setstate({size: +ev.target.value})}/><br/>
+    <input type="range" max="3200" min="1" value={gridSize} title={`grid size ${state.size}x${state.size}`} 
+      onChange={ ev => setstate({size: +ev.target.value})}/><br/>
     </div>
     <canvas ref={refCanvas} id="cc" touch-action="none" tabIndex={1} width="800" height="800"
-      onWheel={ev => setstate(ev.deltaY>0? state+1:state-1)}
+      onWheel={ev => setstate({size: ev.deltaY>0? state.size+1:state.size-1})}
       onClick={ev => click(ev, gl, refCanvas.current!, a_Position, u_FragColor)} ></canvas>
     </div>
   );
