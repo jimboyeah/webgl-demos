@@ -106,13 +106,13 @@ export function loadShader(gl: WebGLRenderingContext, type: GLenum, source: stri
  * @param opt_debug flag to initialize the context for debugging
  * @return [WebGLContext] the rendering context for WebGL
  */
-export function getWebGLContext(canvas: HTMLCanvasElement, opt_debug: boolean = false): WebGLContext {
+export function getWebGLContext(canvas: HTMLCanvasElement, opt_debug: boolean = true): WebGLContext {
   // Get the rendering context for WebGL
   var gl = WebGLUtils.setupWebGL(canvas, {}, {}) as WebGLContext;
   if (!gl) return gl;
 
-  // if opt_debug is explicitly false, create the context for debugging
-  if (arguments.length < 2 || opt_debug) {
+  // if opt_debug is not explicitly false, create the context for debugging
+  if (/* arguments.length < 2 ||  */opt_debug) {
     gl = WebGLDebugUtils.makeDebugContext(gl, null as any) as any;
   }
 

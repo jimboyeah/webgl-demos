@@ -1,27 +1,62 @@
 import React, {MouseEvent, useState} from 'react';
 import {getWebGLContext, initShaders, WebGLContext, resize} from '../lib/utils'
 import Github from '../view-source/view-source'
-
+/* 
+| x 0 0 0 |    | 1 0 0 x |    | 1     0     0 0 |    | cosα  0 sinα 0 |    | cosα -sinα 0 0 |
+| 0 y 0 0 |    | 0 1 0 y |    | 0  cosα -sinα 0 |    | 0     1    0 0 |    | sinα  cosα 0 0 |
+| 0 0 z 0 |    | 0 0 1 z |    | 0  sinα  cosα 0 |    |-sinα  0 cosα 0 |    | 0     0    1 0 |
+| 0 0 0 1 |    | 0 0 0 1 |    | 0     0     0 1 |    | 0     0    0 1 |    | 0     0    0 1 |
+  S(x,y,z)       T(x,y,z)        Rx(α)                 Ry(α)                 Rz(α)           
+*/
 // Vertex shader program
 var VSHADER_SOURCE = `
   attribute vec4 a_Position;
-  attribute vec4 a_Scale;
+  uniform float u_Scale;
+  uniform vec3 u_Angle;
   attribute vec2 a_TexCoord;
   attribute vec4 a_Color;
   varying vec4 v_FragColor;
   varying vec2 v_TexCoord;
   void main() {
     mat4 scale = mat4(
-      vec4(a_Scale, 0.0, 0.0, 0.0),
-      vec4(0.0, a_Scale, 0.0, 0.0),
-      vec4(0.0, 0.0, a_Scale, 0.0),
+      vec4(u_Scale, 0.0, 0.0, 0.0),
+      vec4(0.0, u_Scale, 0.0, 0.0),
+      vec4(0.0, 0.0, u_Scale, 0.0),
       vec4(0.0, 0.0, 0.0, 1.0)
     );
+    float PI = 3.1415926;
+    float x = u_Angle.x;
+    float y = u_Angle.y;
+    float z = u_Angle.z;
+    mat4 shearX = mat4(
+      vec4(1.0, z,   0.0, 0.0),
+      vec4(0.0, 1.0, 0.0, 0.0),
+      vec4(0.0, 0.0, 1.0, 0.0),
+      vec4(0.0, 0.0, 0.0, 1.0)
+    );
+    mat4 rotateX = mat4(
+      vec4(1.0,    0.0,     0.0, 0.0),
+      vec4(0.0, cos(x), -sin(x), 0.0),
+      vec4(0.0, sin(x),  cos(x), 0.0),
+      vec4(0.0,    0.0,     0.0, 1.0)
+    );
+    mat4 rotateY = mat4(
+      vec4( cos(y), 0.0, sin(y), 0.0),
+      vec4(    0.0, 1.0,    0.0, 0.0),
+      vec4(-sin(y), 0.0, cos(y), 0.0),
+      vec4(    0.0, 0.0,    0.0, 1.0)
+    );
+    mat4 rotateZ = mat4(
+      vec4( cos(z), -sin(z), 0.0, 0.0),
+      vec4( sin(z),  cos(z), 0.0, 0.0),
+      vec4(    0.0,     0.0, 1.0, 0.0),
+      vec4(    0.0,     0.0, 0.0, 1.0)
+    );
 
-    gl_Position = a_Position * scale;
+    gl_Position = a_Position * scale * rotateX * rotateY * rotateZ;
     gl_PointSize = 10.0;
     v_TexCoord = a_TexCoord;
-    v_FragColor = a_Color;
+    v_FragColor = vec4(vec3(u_Scale), 1) + a_Color;
   }`;
 
 // Fragment shader program
@@ -35,8 +70,8 @@ var FSHADER_SOURCE = `
     float r = distance(gl_PointCoord, vec2(0.5, 0.5));
     if(r < 0.3){
       // discard;
-      gl_FragColor = v_FragColor * 0.1 + texture2D(u_Sampler, v_TexCoord);
     }
+    gl_FragColor = v_FragColor * 0.0 + texture2D(u_Sampler, v_TexCoord);
   }`;
 
 var gl: WebGLContext;
@@ -46,7 +81,7 @@ function main(canvas:HTMLCanvasElement) {
   // var canvas = document.getElementById('webgl');
 
   // Get the rendering context for WebGL
-  gl = getWebGLContext(canvas);
+  gl = getWebGLContext(canvas, false);
   if (!gl) {
     console.log('Failed to get the rendering context for WebGL');
   }
@@ -71,6 +106,7 @@ function main(canvas:HTMLCanvasElement) {
 
   loadTexture();
   bindColors();
+  bindTransform();
   bindIndices();
   requestAnimationFrame(render);
 }
@@ -169,7 +205,6 @@ function drawHitPoint() {
   gl.drawArrays(gl.POINTS, 0, 1);
 }
 
-var a_Scale:number;
 var a_Position:number;
 function bindVertexs() {
   // Get the storage location of a_Position
@@ -177,10 +212,7 @@ function bindVertexs() {
   if (a_Position < 0) {
     console.log('Failed to get the storage location of a_Position');
   }
-  a_Scale = gl.getAttribLocation(gl.program, 'a_Scale');
-  if (a_Scale < 0) {
-    console.log('Failed to get the storage location of a_Scale');
-  }
+
   let data = new Float32Array(positions);
   let FSIZE = data.BYTES_PER_ELEMENT;
   var positionBuffer = gl.createBuffer();
@@ -195,6 +227,21 @@ function bindVertexs() {
     0,            // offset into buffer
   );
   gl.enableVertexAttribArray(a_Position);
+}
+
+var u_Angle: WebGLUniformLocation;
+var u_Scale: WebGLUniformLocation;
+function bindTransform() {
+  u_Scale = gl.getUniformLocation(gl.program, 'u_Scale')!;
+  if (!u_Scale) {
+    console.log('Failed to get the storage location of u_Scale');
+  }
+  u_Angle = gl.getUniformLocation(gl.program, 'u_Angle')!;
+  if (!u_Angle) {
+    console.log('Failed to get the storage location of u_Angle');
+  }
+  gl.uniform1f(u_Scale, state.size)
+  gl.uniform3fv(u_Angle, [state.angleX, state.angleY, state.angleZ ])
 }
 
 let a_TexCoord: number
@@ -253,20 +300,22 @@ function createTexture(image: HTMLImageElement) {
   gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR)
   gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, (gl as any)[state.WRAP_S])
   gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, (gl as any)[state.WRAP_T])
+  let level = state.useMipmap? state.level:0
   gl.texImage2D(gl.TEXTURE_2D,
-    0,      // int level
-    gl.RGB, // enum internalformat
+    level,  // int level
+    gl.RGBA, // enum internalformat
             // long width
             // long height
             // int border
-    gl.RGB, // enum format
+    gl.RGBA, // enum format
     gl.UNSIGNED_BYTE, // enum type
     image,  // Object pixels
   )
+  // 不能先于 texImage2D 生成 mipmap 否则会被覆盖
   if(state.useMipmap){
     gl.generateMipmap(gl.TEXTURE_2D);
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
-    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST_MIPMAP_LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_LINEAR);
   }
   gl.uniform1i(u_Sampler, unit)
 }
@@ -311,10 +360,10 @@ function drawElements() {
   // gl.drawElements(gl.POINTS, len, gl.UNSIGNED_BYTE, 0);
 }
 
-function drawArrays() {
-  gl.drawArrays(gl.TRIANGLE_STRIP, 1, positions.length/5-1);
-  // gl.drawArrays(gl.LINE_STRIP, 1, positions.length/5-1);
-}
+// function drawArrays() {
+//   gl.drawArrays(gl.TRIANGLE_STRIP, 1, positions.length/5-1);
+//   // gl.drawArrays(gl.LINE_STRIP, 1, positions.length/5-1);
+// }
 
 let state = {
   textureImage: 'sky.JPG',
@@ -322,7 +371,11 @@ let state = {
   WRAP_S: 'REPEAT',
   WRAP_T: 'REPEAT',
   useWrap: false,
-  size: 1,
+  size: 1.0,
+  level: 0.0,
+  angleX: 0.0,
+  angleY: 0.0,
+  angleZ: 0.0,
 }
 
 function App() {
@@ -333,12 +386,37 @@ function App() {
   React.useEffect(()=>{
     main(refCanvas.current!)
   })
-  let setImg = (val: string) => setState({...State, textureImage: val})
-  let setVal = (val: object) => setState({...State, ...val})
+  let setImg = (val: string) => setState({...state, textureImage: val})
+  let setVal = (val: object) => setState({...state, ...val})
   return (
     <div className="demo scroll">
     <Github pathname="src/WebGL/Textured.tsx" />
     <div className="controls">
+      <button onClick={ev => setImg('/sky.JPG')}>sky</button>
+      <button onClick={ev => setImg('/micro_s.png')}>micro</button>
+      <button onClick={ev => setImg('/beechwood_honey.jpg')}>beech</button>
+      <button onClick={ev => setImg('/girls.jpg')}>girls</button>
+      <button onClick={ev => setImg('/IzumiSakai.jpeg')}>Izumi Sakai</button>
+      <hr/>
+      Scale <input type="range" defaultValue={state.size} min={0.1} step={0.1} max={5}
+        onChange={ev => {state.size = +ev.target.value; bindTransform()}}/>
+      <br/>
+      angleX <input type="range" defaultValue={state.angleX} min={0.0} step={0.1} max={7}
+        onChange={ev => {state.angleX = +ev.target.value; bindTransform()}}/>
+      <br/>
+      angleY <input type="range" defaultValue={state.angleY} min={0.0} step={0.1} max={7}
+        onChange={ev => {state.angleY = +ev.target.value; bindTransform()}}/>
+      <br/>
+      angleZ <input type="range" defaultValue={state.angleZ} min={0.0} step={0.1} max={7}
+        onChange={ev => {state.angleZ = +ev.target.value; bindTransform()}}/>
+      { state.useMipmap && 
+        <>
+        <hr/>
+        Level <input type="range" title="WebGL 2+" value={State.level} min={0} max={2}
+        onChange={ev => setVal({level: +ev.target.value})}/>
+        </>
+      }
+      <hr/>
       {state.useWrap && (
         <>
         WRAP_S
@@ -352,11 +430,6 @@ function App() {
         <hr/>
         </>
       )}
-      <button onClick={ev => setImg('/sky.JPG')}>sky</button>
-      <button onClick={ev => setImg('/beechwood_honey.jpg')}>beech wood</button>
-      <button onClick={ev => setImg('/girls.jpg')}>girls</button>
-      <button onClick={ev => setImg('/IzumiSakai.jpeg')}>Izumi Sakai</button>
-      <hr/>
       <button onClick={ev => setVal({useMipmap: !state.useMipmap})}>
         [{!state.useMipmap? '❌':'⭕'}]Mip-Mapping</button>
       <button onClick={ev => setVal({useWrap: !state.useWrap})}>
@@ -364,7 +437,7 @@ function App() {
     </div>
     <canvas ref={refCanvas} id="cc" touch-action="none" tabIndex={1} width="800" height="800"
       onClick={ev => onHit(ev, refCanvas.current!)}
-      onWheel={ev => setVal({size: ev.deltaY>0? state.size+1:state.size-1})}
+      onWheel={ev => {state.size += state.size*(ev.deltaY>0? +0.1:-0.1);bindTransform()}}
       onMouseMove={ev => onMove(ev, refCanvas.current!)} ></canvas>
     </div>
   );

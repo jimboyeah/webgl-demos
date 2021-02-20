@@ -15,8 +15,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "WebGL_Guide_Code": "live-server C:/coding/md-code/WebGL_Guide_Code",
-    "WebGL_Fundamentals": "live-server C:/coding/md-code/webgl-fundamentals",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Github from './view-source/view-source'
 
 import { lazy, Suspense, useRef } from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import {HashRouter, Route } from './HashRouter'
 
 const Babylon = lazy(()=> import('./Babylon'));
@@ -15,6 +15,8 @@ const MousePoint = lazy(()=> import('./WebGL/MousePoint'));
 const Textured = lazy(()=> import('./WebGL/Textured'));
 const ThreeDF = lazy(()=> import('./WebGL/3DF'));
 
+const logo = "/micro_s.png"
+
 function App() {
   const ref = useRef<HTMLDivElement>(null)
   let removeDemo = () => {
@@ -23,7 +25,7 @@ function App() {
   return (
     <div ref={ref} className="App columns cLight">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" title="micro-view" />
         <p><a onClick={ev => removeDemo()} className="return grow" href="#">🏡</a></p>
         <Github pathname="" />
       </header>
